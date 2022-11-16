@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "bat_elytra:bat_wing"
+    },
+    "X": {
+      "item": "minecraft:elytra"
+    },
+    "O": {
+      "tag": "minecraft:leather_chestplate"
+    }
+  },
+  "pattern": [
+    "#X#",
+    " O "
+  ],
+  "result": {
+    "item": "bat_elytra:bat_elytra"
+  }
+}

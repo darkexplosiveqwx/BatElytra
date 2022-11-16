@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bat_elytra:item/armored_bat_elytra"
+  }
+}
