@@ -1,128 +1,249 @@
-[19Nov2022 09:43:16.263] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.52, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[19Nov2022 09:43:16.273] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
-[19Nov2022 09:43:16.643] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/johan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[19Nov2022 09:43:17.542] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.52\15567d99c9572096b38b5ce4d5d3d205b2356e47\javafmllanguage-1.19.2-43.1.52.jar is missing mods.toml file
-[19Nov2022 09:43:17.551] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.52\25cf253a5814c855c978bb7dc808d5991adb5eaf\lowcodelanguage-1.19.2-43.1.52.jar is missing mods.toml file
-[19Nov2022 09:43:17.557] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.52\b6cfdb1c54bb57ffee28f7591f1f19c57f29dfb4\mclanguage-1.19.2-43.1.52.jar is missing mods.toml file
-[19Nov2022 09:43:17.565] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.52\1522df0ea44e9447d69d877190a2540576361f12\fmlcore-1.19.2-43.1.52.jar is missing mods.toml file
-[19Nov2022 09:43:17.789] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[19Nov2022 09:43:20.685] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[19Nov2022 09:43:28.020] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[19Nov2022 09:43:31.436] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/johan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.52_mapped_official_1.19.2/forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[19Nov2022 09:43:31.437] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/johan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.52_mapped_official_1.19.2/forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[19Nov2022 09:43:31.462] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Nov2022 09:43:31.471] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19Nov2022 09:43:31.682] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[19Nov2022 09:43:33.206] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.52, for MC 1.19.2 with MCP 20220805.130853
-[19Nov2022 09:43:33.211] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.52 Initialized
-[19Nov2022 09:43:36.149] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
-[19Nov2022 09:43:36.462] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[19Nov2022 09:43:36.510] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[19Nov2022 09:43:36.680] [Worker-Main-6/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM COMMON SETUP
-[19Nov2022 09:43:36.681] [Worker-Main-6/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: DIRT BLOCK >> minecraft:dirt
-[19Nov2022 09:43:37.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Nov2022 09:43:38.720] [Worker-Main-6/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM CLIENT SETUP
-[19Nov2022 09:43:38.720] [Worker-Main-6/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: MINECRAFT NAME >> Dev
-[19Nov2022 09:43:38.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.1.52 Target: null
-[19Nov2022 09:43:52.558] [Worker-Main-1/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture bat_elytra:item/armored_bat_elytra with size 24x24 limits mip level from 4 to 3
-[19Nov2022 09:43:56.402] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19Nov2022 09:43:56.403] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19Nov2022 09:43:56.564] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 1 - ASUS VG279Q1A (AMD High Definition Audio Device)
-[19Nov2022 09:43:56.566] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19Nov2022 09:43:56.896] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[19Nov2022 09:43:57.074] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[19Nov2022 09:43:57.076] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19Nov2022 09:43:57.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19Nov2022 09:43:57.087] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19Nov2022 09:43:57.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19Nov2022 09:43:57.092] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19Nov2022 09:43:58.642] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19Nov2022 09:43:58.933] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[19Nov2022 09:43:58.940] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19Nov2022 09:43:58.942] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19Nov2022 09:43:59.607] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[19Nov2022 09:44:09.482] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[19Nov2022 09:44:11.040] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[19Nov2022 09:44:11.783] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[19Nov2022 09:44:11.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Nov2022 09:44:12.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Nov2022 09:44:21.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.240] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.240] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.442] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.534] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.534] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.646] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.646] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.647] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.734] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.734] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.817] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.925] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.925] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.925] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:21.926] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:22.192] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:22.648] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2022 09:44:23.124] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[19Nov2022 09:44:23.698] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[19Nov2022 09:44:24.173] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[19Nov2022 09:44:24.643] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[19Nov2022 09:44:24.838] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12216 ms
-[19Nov2022 09:44:24.841] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Nov2022 09:44:24.842] [Server thread/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO from server starting
-[19Nov2022 09:44:25.104] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19Nov2022 09:44:25.114] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[19Nov2022 09:44:25.392] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[19Nov2022 09:44:26.591] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[19Nov2022 09:44:26.833] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@43a38a6e
-[19Nov2022 09:44:26.878] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1d925090] logged in with entity id 256 at (-261.5, 64.0, 968.5)
-[19Nov2022 09:44:27.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19Nov2022 09:44:27.739] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2096ms or 41 ticks behind
-[19Nov2022 09:44:31.004] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 84 advancements
-[19Nov2022 09:44:37.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[19Nov2022 09:44:37.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[19Nov2022 09:44:46.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[19Nov2022 09:44:46.824] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[19Nov2022 09:45:08.633] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-356, y=71, z=1007} BlockPos{x=-355, y=70, z=1006}
-[19Nov2022 09:45:56.775] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[19Nov2022 09:46:02.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell from a high place
-[19Nov2022 09:46:02.664] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell from a high place
-[19Nov2022 09:46:08.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[19Nov2022 09:46:08.021] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[19Nov2022 09:46:21.493] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Nov2022 09:46:21.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Nov2022 09:46:21.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Nov2022 09:46:21.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Nov2022 09:46:24.794] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Nov2022 09:46:24.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Nov2022 09:46:24.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Nov2022 09:46:24.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Nov2022 09:46:42.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[19Nov2022 09:46:42.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[19Nov2022 09:48:20.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[19Nov2022 09:48:20.749] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[19Nov2022 09:48:58.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[19Nov2022 09:48:58.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[19Nov2022 09:49:22.592] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 84 advancements
-[19Nov2022 09:49:35.916] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
-[19Nov2022 09:49:55.769] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2227ms or 44 ticks behind
-[19Nov2022 09:50:38.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell out of the world
-[19Nov2022 09:50:38.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Dev]
-[19Nov2022 09:50:38.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell out of the world
-[19Nov2022 09:50:38.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed Dev
-[19Nov2022 09:50:39.259] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 84 advancements
-[19Nov2022 09:50:39.920] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 29177ms or 583 ticks behind
-[19Nov2022 09:50:49.600] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Nov2022 09:50:49.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19Nov2022 09:50:49.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19Nov2022 09:50:49.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19Nov2022 09:50:58.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[19Nov2022 09:50:58.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[19Nov2022 09:50:58.892] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19Nov2022 09:50:58.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Nov2022 09:50:58.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Nov2022 09:50:58.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Nov2022 10:21:02.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.52, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[19Nov2022 10:21:02.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[19Nov2022 10:21:02.299] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/johan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[19Nov2022 10:21:03.009] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.52\15567d99c9572096b38b5ce4d5d3d205b2356e47\javafmllanguage-1.19.2-43.1.52.jar is missing mods.toml file
+[19Nov2022 10:21:03.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.52\25cf253a5814c855c978bb7dc808d5991adb5eaf\lowcodelanguage-1.19.2-43.1.52.jar is missing mods.toml file
+[19Nov2022 10:21:03.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.52\b6cfdb1c54bb57ffee28f7591f1f19c57f29dfb4\mclanguage-1.19.2-43.1.52.jar is missing mods.toml file
+[19Nov2022 10:21:03.040] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.52\1522df0ea44e9447d69d877190a2540576361f12\fmlcore-1.19.2-43.1.52.jar is missing mods.toml file
+[19Nov2022 10:21:03.215] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[19Nov2022 10:21:06.130] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[19Nov2022 10:21:13.746] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[19Nov2022 10:21:17.428] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/johan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.52_mapped_official_1.19.2/forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[19Nov2022 10:21:17.429] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/johan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.52_mapped_official_1.19.2/forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[19Nov2022 10:21:17.454] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Nov2022 10:21:17.462] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[19Nov2022 10:21:17.730] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[19Nov2022 10:21:18.823] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.52, for MC 1.19.2 with MCP 20220805.130853
+[19Nov2022 10:21:18.839] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.52 Initialized
+[19Nov2022 10:21:21.233] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[19Nov2022 10:21:21.512] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[19Nov2022 10:21:21.562] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[19Nov2022 10:21:21.704] [Worker-Main-3/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM COMMON SETUP
+[19Nov2022 10:21:21.720] [Worker-Main-3/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: DIRT BLOCK >> minecraft:dirt
+[19Nov2022 10:21:22.845] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Nov2022 10:21:22.931] [Worker-Main-2/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM CLIENT SETUP
+[19Nov2022 10:21:22.932] [Worker-Main-2/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: MINECRAFT NAME >> Dev
+[19Nov2022 10:21:24.129] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.1.52 Target: null
+[19Nov2022 10:21:24.129] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bat_elytra] Starting version check at https://github.com/darkexplosiveqwx/BatElytra/releases
+[19Nov2022 10:21:24.782] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 8 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%23148!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.1.52.jar%23187!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.1.52.jar%23187!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 8 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23148!/:?]
+	... 6 more
+[19Nov2022 10:21:38.412] [Worker-Main-7/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture bat_elytra:item/armored_bat_elytra with size 24x24 limits mip level from 4 to 3
+[19Nov2022 10:21:42.471] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[19Nov2022 10:21:42.472] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19Nov2022 10:21:42.613] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 1 - ASUS VG279Q1A (AMD High Definition Audio Device)
+[19Nov2022 10:21:42.614] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[19Nov2022 10:21:42.935] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19Nov2022 10:21:43.110] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19Nov2022 10:21:43.112] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19Nov2022 10:21:43.119] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19Nov2022 10:21:43.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19Nov2022 10:21:43.127] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19Nov2022 10:21:43.130] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19Nov2022 10:21:44.861] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19Nov2022 10:21:45.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19Nov2022 10:21:45.193] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19Nov2022 10:21:45.194] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19Nov2022 10:21:45.859] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[19Nov2022 10:21:53.633] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[19Nov2022 10:21:55.119] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[19Nov2022 10:21:55.828] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[19Nov2022 10:21:55.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Nov2022 10:21:56.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Nov2022 10:22:04.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:04.899] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:05.235] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Nov2022 10:22:05.708] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[19Nov2022 10:22:06.221] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[19Nov2022 10:22:06.776] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[19Nov2022 10:22:07.207] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[19Nov2022 10:22:07.534] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Nov2022 10:22:07.535] [Server thread/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO from server starting
+[19Nov2022 10:22:07.547] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10853 ms
+[19Nov2022 10:22:07.773] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[19Nov2022 10:22:07.781] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[19Nov2022 10:22:08.046] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[19Nov2022 10:22:09.164] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[19Nov2022 10:22:09.351] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@276ffba4
+[19Nov2022 10:22:09.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:dc1b4d95] logged in with entity id 165 at (-277.28369445454945, 63.0, 965.126904174616)
+[19Nov2022 10:22:09.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[19Nov2022 10:22:09.957] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[19Nov2022 10:22:13.079] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 84 advancements
+[19Nov2022 10:22:27.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the weather to clear]
+[19Nov2022 10:22:27.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
+[19Nov2022 10:22:31.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[19Nov2022 10:22:31.576] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[19Nov2022 10:22:49.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Sky's the Limit]
+[19Nov2022 10:22:49.657] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Sky's the Limit]
+[19Nov2022 10:22:49.659] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 85 advancements
+[19Nov2022 10:22:59.761] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Only players may be affected by this command, but the provided selector includes entities
+[19Nov2022 10:22:59.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] recipe give @e<--[HERE]
+[19Nov2022 10:23:08.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Unlocked 1091 recipes for Dev]
+[19Nov2022 10:23:08.065] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unlocked 1091 recipes for Dev
+[19Nov2022 10:23:08.081] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1110 advancements
+[19Nov2022 10:23:27.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Nov2022 10:23:27.389] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[19Nov2022 10:23:38.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell from a high place
+[19Nov2022 10:23:38.611] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell from a high place
+[19Nov2022 10:23:53.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[19Nov2022 10:23:54.008] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[19Nov2022 10:23:55.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Advanced tooltips: hidden
+[19Nov2022 10:23:58.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Advanced tooltips: shown
+[19Nov2022 10:24:01.533] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Key bindings:
+[19Nov2022 10:24:01.534] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + A = Reload chunks
+[19Nov2022 10:24:01.535] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + B = Show hitboxes
+[19Nov2022 10:24:01.535] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + C = Copy location as /tp command, hold F3 + C to crash the game
+[19Nov2022 10:24:01.537] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + D = Clear chat
+[19Nov2022 10:24:01.537] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + G = Show chunk boundaries
+[19Nov2022 10:24:01.538] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + H = Advanced tooltips
+[19Nov2022 10:24:01.538] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + I = Copy entity or block data to clipboard
+[19Nov2022 10:24:01.539] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + L = Start/stop profiling
+[19Nov2022 10:24:01.539] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + N = Cycle previous gamemode <-> spectator
+[19Nov2022 10:24:01.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + P = Pause on lost focus
+[19Nov2022 10:24:01.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + Q = Show this list
+[19Nov2022 10:24:01.541] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + T = Reload resource packs
+[19Nov2022 10:24:01.541] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + Esc = Pause without pause menu (if pausing is possible)
+[19Nov2022 10:24:01.542] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] F3 + F4 = Open game mode switcher
+[19Nov2022 10:24:02.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Nov2022 10:24:02.786] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[19Nov2022 10:24:21.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[19Nov2022 10:24:21.366] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
+[19Nov2022 10:24:21.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Nov2022 10:24:21.929] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[19Nov2022 10:24:22.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[19Nov2022 10:24:22.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
+[19Nov2022 10:24:26.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Nov2022 10:24:26.617] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[19Nov2022 10:24:28.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[19Nov2022 10:24:28.672] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
+[19Nov2022 10:24:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Nov2022 10:24:45.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[19Nov2022 10:24:56.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell from a high place
+[19Nov2022 10:24:56.963] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell from a high place
+[19Nov2022 10:24:58.565] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
+[19Nov2022 10:25:01.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[19Nov2022 10:25:01.190] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
+[19Nov2022 10:25:09.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[19Nov2022 10:25:09.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[19Nov2022 10:25:26.336] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[19Nov2022 10:25:26.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[19Nov2022 10:25:26.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[19Nov2022 10:25:26.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[19Nov2022 10:26:43.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was shot by Skeleton
+[19Nov2022 10:26:43.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was shot by Skeleton
+[19Nov2022 10:26:50.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Armored Bat Elytra] to Dev]
+[19Nov2022 10:26:50.590] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Armored Bat Elytra] to Dev
+[19Nov2022 10:28:35.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell from a high place
+[19Nov2022 10:28:35.442] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell from a high place
+[19Nov2022 10:28:38.842] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[19Nov2022 10:28:47.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[19Nov2022 10:28:47.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[19Nov2022 10:28:50.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the weather to clear]
+[19Nov2022 10:28:50.573] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
+[19Nov2022 10:28:55.545] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Copied location to clipboard
+[19Nov2022 10:29:01.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -279.390000, 64.000000, 966.660000]
+[19Nov2022 10:29:01.234] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -279.390000, 64.000000, 966.660000
+[19Nov2022 10:29:08.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -279.390000, 64.000000, 966.660000]
+[19Nov2022 10:29:08.581] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -279.390000, 64.000000, 966.660000
+[19Nov2022 10:29:16.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Copied location to clipboard
+[19Nov2022 10:29:17.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released.
+[19Nov2022 10:29:18.276] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 8...
+[19Nov2022 10:29:25.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Copied location to clipboard
+[19Nov2022 10:29:26.297] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released.
+[19Nov2022 10:29:27.341] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 8...
+[19Nov2022 10:29:28.349] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 7...
+[19Nov2022 10:29:29.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 6...
+[19Nov2022 10:29:30.399] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 5...
+[19Nov2022 10:29:31.399] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 4...
+[19Nov2022 10:29:32.401] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 3...
+[19Nov2022 10:29:33.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 2...
+[19Nov2022 10:29:34.508] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 1...
+[19Nov2022 10:29:48.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Copied location to clipboard
+[19Nov2022 10:29:49.504] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released.
+[19Nov2022 10:29:50.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 8...
+[19Nov2022 10:29:51.814] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Copied location to clipboard
+[19Nov2022 10:29:52.847] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released.
+[19Nov2022 10:29:53.849] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 8...
+[19Nov2022 10:29:54.897] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 7...
+[19Nov2022 10:29:55.899] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 6...
+[19Nov2022 10:29:56.915] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 5...
+[19Nov2022 10:29:57.953] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 4...
+[19Nov2022 10:29:58.959] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 3...
+[19Nov2022 10:30:00.000] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 2...
+[19Nov2022 10:30:01.042] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 1...
+[19Nov2022 10:30:03.465] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Copied location to clipboard
+[19Nov2022 10:30:04.494] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: F3 + C is held down. This will crash the game unless released.
+[19Nov2022 10:30:05.503] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 8...
+[19Nov2022 10:30:06.549] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 7...
+[19Nov2022 10:30:07.548] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 6...
+[19Nov2022 10:30:08.601] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 5...
+[19Nov2022 10:30:09.661] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 4...
+[19Nov2022 10:30:10.711] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 3...
+[19Nov2022 10:30:11.750] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 2...
+[19Nov2022 10:30:12.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Crashing in 1...
+[19Nov2022 10:30:14.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Nov2022 10:30:14.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Nov2022 10:30:14.772] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[19Nov2022 10:30:14.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[19Nov2022 10:30:14.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[19Nov2022 10:30:14.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Nov2022 10:30:16.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[19Nov2022 10:30:16.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[19Nov2022 10:30:16.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[19Nov2022 10:30:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[19Nov2022 10:30:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Nov2022 10:30:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Nov2022 10:30:16.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19Nov2022 10:30:18.147] [Render thread/ERROR] [net.minecraft.client.Minecraft/FATAL]: Reported exception thrown!
+net.minecraft.ReportedException: Manually triggered debug crash
+	at net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:481) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.client.Minecraft.tick(Minecraft.java:1847) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1078) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.1.52.jar%2395!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23108!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.Throwable: Manually triggered debug crash
+	at net.minecraft.client.KeyboardHandler.tick(KeyboardHandler.java:478) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+	... 18 more
+[19Nov2022 10:30:18.155] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1132e079-2559-4f1e-9294-6256443b36dd
+[19Nov2022 10:30:18.160] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID e83a3cc4-5045-48ca-bb60-4bf38158dbab
