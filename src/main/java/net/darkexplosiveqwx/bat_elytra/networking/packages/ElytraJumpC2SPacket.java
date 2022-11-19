@@ -32,10 +32,13 @@ public class ElytraJumpC2SPacket {
             ServerLevel level = player.getLevel();
 
              //if(player.getInventory().armor.get(2) != ModItems.BAT_ELYTRA.get().getDefaultInstance() || player.getInventory().armor.get(2) != ModItems.ARMORED_BAT_ELYTRA.get().getDefaultInstance()) return;
-            if(!player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.ARMORED_BAT_ELYTRA.get()) || !player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.BAT_ELYTRA.get())) return;
+            if(player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.ARMORED_BAT_ELYTRA.get().asItem()) || player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.BAT_ELYTRA.get().asItem())) {
+                player.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 75, false, false, false));
+
+            }
 
 
-            player.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 75, false, false, false));
+            //player.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 75, false, false, false));
 
 
         });
