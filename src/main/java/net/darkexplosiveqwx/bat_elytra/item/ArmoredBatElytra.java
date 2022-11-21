@@ -11,6 +11,7 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.DispenserBlock;
+import org.jetbrains.annotations.NotNull;
 
 public class ArmoredBatElytra extends ArmorItem {
     public ArmoredBatElytra(ArmorMaterial materialIn, EquipmentSlot slot, Properties properties) {
@@ -25,7 +26,7 @@ public class ArmoredBatElytra extends ArmorItem {
     /**
      * Return whether this item is repairable in an anvil.
      */
-    public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
+    public boolean isValidRepairItem(@NotNull ItemStack toRepair, ItemStack repair) {
         return repair.getItem() == ModItems.BAT_WING.get();
     }
 
@@ -33,7 +34,7 @@ public class ArmoredBatElytra extends ArmorItem {
      * Called to trigger the item's "innate" right click behavior. To handle when
      * this item is used on a Block, see .
      */
-    public InteractionResultHolder<ItemStack> use(Level worldIn, Player playerIn, InteractionHand handIn) {
+    public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level worldIn, Player playerIn, @NotNull InteractionHand handIn) {
         ItemStack itemstack = playerIn.getItemInHand(handIn);
         EquipmentSlot equipmentslottype = Mob.getEquipmentSlotForItem(itemstack);
         ItemStack itemstack1 = playerIn.getItemBySlot(equipmentslottype);
@@ -48,7 +49,7 @@ public class ArmoredBatElytra extends ArmorItem {
 
     @Override
     public boolean canElytraFly(ItemStack stack, LivingEntity entity) {
-        return true;
+        return isUsable(stack);
     }
 
     @Override

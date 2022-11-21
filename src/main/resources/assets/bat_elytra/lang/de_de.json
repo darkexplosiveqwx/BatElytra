@@ -1,0 +1,10 @@
+{
+  "item.bat_elytra.bat_elytra": "Fledermaus Elytra",
+  "item.bat_elytra.bat_wing": "Fledermausflügel",
+  "item.bat_elytra.armored_bat_elytra": "Gepanzerte Fledermaus Elytra",
+  "itemGroup.bat_elytra": "Fledermaus Elytra Tab",
+
+  "key.category.bat_elytra.main": "Fledermaus Elytra",
+  "key.bat_elytra.elytra_jump": "Elytra Sprung"
+
+}
