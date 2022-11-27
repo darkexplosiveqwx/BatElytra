@@ -1,0 +1,39 @@
+{
+  "parent": "bat_elytra:elytra",
+  "criteria": {
+    "armored_bat_elytra": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bat_elytra:armored_bat_elytra"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bat_elytra.armored_elytra.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "bat_elytra:armored_bat_elytra",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bat_elytra.armored_elytra.title"
+    },
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "requirements": [
+    [
+      "armored_bat_elytra"
+    ]
+  ]
+}
