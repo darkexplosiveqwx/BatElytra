@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "bat_wing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bat_elytra:bat_wing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bat_elytra.root.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "bat_elytra:bat_wing",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bat_elytra.root.title"
+    },
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "requirements": [
+    [
+      "bat_wing"
+    ]
+  ]
+}

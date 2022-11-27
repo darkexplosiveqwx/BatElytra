@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bat_elytra:armored_bat_elytra",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.bat_elytra.hard.title"
+    },
+    "description": {
+      "translate": "advancements.bat_elytra.hard.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "bat_elytra:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}
