@@ -14,7 +14,6 @@ out
 .idea
 
 # gradle
-build
 .gradle
 
 # other
@@ -29,5 +28,3 @@ run/mods
 run/resourcepacks
 run/defaultconfigs
 
-# Files from Forge MDK
-forge*changelog.txt

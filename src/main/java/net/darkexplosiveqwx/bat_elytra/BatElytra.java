@@ -49,7 +49,6 @@ public class BatElytra
         KeyBindings.ELYTRA_JUMP.setToDefault();
 
         MinecraftForge.EVENT_BUS.register(this);
-        if(FMLEnvironment.dist.isClient()) modEventBus.addListener(this::registerElytraLayer);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -68,91 +67,51 @@ public class BatElytra
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
+        public static void onClientSetup(FMLClientSetupEvent event) {
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
 
 
         }
-        @SubscribeEvent(priority = EventPriority.LOW)
-        public static void renderPlayer(final EntityRenderersEvent.AddLayers event) {
-            //default
-            LivingEntityRenderer<Player, PlayerModel<Player>> renderer = event.getSkin("default");
-            ElytraRenderer<Player, PlayerModel<Player>> layer = new ElytraRenderer<>(renderer, event.getEntityModels());
-            if (renderer != null) {
 
-                renderer.addLayer(layer);
-            } else {
-                LOGGER.error("Couldn't get renderer");
-            }
-            //Slim
-            renderer = event.getSkin("slim");
-            layer = new ElytraRenderer<>(renderer, event.getEntityModels());
-            if (renderer != null) {
-
-                renderer.addLayer(layer);
-            } else {
-                LOGGER.error("Couldn't get renderer");
-            }
-
-            addEntityLayer(event, EntityType.ARMOR_STAND);
-            addEntityLayer(event, EntityType.ZOMBIE);
-            addEntityLayer(event, EntityType.ZOMBIE_VILLAGER);
-            addEntityLayer(event, EntityType.SKELETON);
-            addEntityLayer(event, EntityType.HUSK);
-            addEntityLayer(event, EntityType.STRAY);
-            addEntityLayer(event, EntityType.WITHER_SKELETON);
-            addEntityLayer(event, EntityType.DROWNED);
-            addEntityLayer(event, EntityType.PIGLIN);
-            addEntityLayer(event, EntityType.PIGLIN_BRUTE);
-            addEntityLayer(event, EntityType.ZOMBIFIED_PIGLIN);
-        }
-
-        private static <T extends LivingEntity, M extends HumanoidModel<T>, R extends LivingEntityRenderer<T, M>> void addEntityLayer(EntityRenderersEvent.AddLayers evt, EntityType<? extends T> entityType) {
-            R renderer = evt.getRenderer(entityType);
-
-            if (renderer != null) {
-                renderer.addLayer(new ElytraRenderer<>(renderer, evt.getEntityModels()));
-            }
-        }
-    }
-    @Mod.EventBusSubscriber(modid = BatElytra.MODID, value = Dist.CLIENT)
-    public static class ClientForgeEvents{
-        @SubscribeEvent
-        public static void onKeyInput(InputEvent.Key event){
-            if(KeyBindings.ELYTRA_JUMP.consumeClick()){
-                assert Minecraft.getInstance().player != null;
-               ModMessages.sendToServer(new ElytraJumpC2SPacket());
-            }
-        }
-    }
-    @Mod.EventBusSubscriber(modid = BatElytra.MODID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ClientModBusEvents {
-        @SubscribeEvent
-        public static void onKeyRegister(RegisterKeyMappingsEvent event) {
-            event.register(KeyBindings.ELYTRA_JUMP);
-        }
-    }
-    @OnlyIn(Dist.CLIENT)
-    private void registerElytraLayer(EntityRenderersEvent event) {
-        if(event instanceof EntityRenderersEvent.AddLayers addLayersEvent){
-            EntityModelSet entityModels = addLayersEvent.getEntityModels();
-            addLayersEvent.getSkins().forEach(s -> {
-                LivingEntityRenderer<? extends Player, ? extends EntityModel<? extends Player>> livingEntityRenderer = addLayersEvent.getSkin(s);
-                if(livingEntityRenderer instanceof PlayerRenderer playerRenderer){
-                    playerRenderer.addLayer(new BatElytraLayer(playerRenderer, entityModels));
+        @Mod.EventBusSubscriber(modid = BatElytra.MODID, value = Dist.CLIENT)
+        public static class ClientForgeEvents {
+            @SubscribeEvent
+            public static void onKeyInput(InputEvent.Key event) {
+                if (KeyBindings.ELYTRA_JUMP.consumeClick()) {
+                    assert Minecraft.getInstance().player != null;
+                    ModMessages.sendToServer(new ElytraJumpC2SPacket());
                 }
-            });
-            LivingEntityRenderer<ArmorStand, ? extends EntityModel<ArmorStand>> livingEntityRenderer = addLayersEvent.getRenderer(EntityType.ARMOR_STAND);
-            if(livingEntityRenderer instanceof ArmorStandRenderer armorStandRenderer){
-                armorStandRenderer.addLayer(new BatElytraArmorStandLayer(armorStandRenderer, entityModels));
             }
+        }
 
+        @Mod.EventBusSubscriber(modid = BatElytra.MODID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
+        public static class ClientModBusEvents {
+            @SubscribeEvent
+            public static void onKeyRegister(RegisterKeyMappingsEvent event) {
+                event.register(KeyBindings.ELYTRA_JUMP);
+            }
+        }
+
+        @OnlyIn(Dist.CLIENT)
+        private void registerElytraLayer(EntityRenderersEvent event) {
+            if (event instanceof EntityRenderersEvent.AddLayers addLayersEvent) {
+                EntityModelSet entityModels = addLayersEvent.getEntityModels();
+                addLayersEvent.getSkins().forEach(s -> {
+                    LivingEntityRenderer<? extends Player, ? extends EntityModel<? extends Player>> livingEntityRenderer = addLayersEvent.getSkin(s);
+                    if (livingEntityRenderer instanceof PlayerRenderer playerRenderer) {
+                        playerRenderer.addLayer(new BatElytraLayer(playerRenderer, entityModels));
+                    }
+                });
+                LivingEntityRenderer<ArmorStand, ? extends EntityModel<ArmorStand>> livingEntityRenderer = addLayersEvent.getRenderer(EntityType.ARMOR_STAND);
+                if (livingEntityRenderer instanceof ArmorStandRenderer armorStandRenderer) {
+                    armorStandRenderer.addLayer(new BatElytraArmorStandLayer(armorStandRenderer, entityModels));
+                }
+
+            }
         }
     }
 }
