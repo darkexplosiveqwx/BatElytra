@@ -5,6 +5,21 @@
   "itemGroup.bat_elytra": "Elytra de Murciélago",
 
   "key.category.bat_elytra.main": "Elytra de Murciélago",
-  "key.bat_elytra.elytra_jump": "Salto Elytra"
+  "key.bat_elytra.elytra_jump": "Salto Elytra",
+
+
+  "advancements.bat_elytra.hard.title" : "Modo difícil",
+  "advancements.bat_elytra.hard.description" : "Efectos de Elytra",
+
+
+  "advancements.bat_elytra.root.title": "Elytra de Murciélago",
+  "advancements.bat_elytra.root.description": "Mata un murciélago y aléjate",
+
+  "advancements.bat_elytra.elytra.title": "Elytra de Murciélago",
+  "advancements.bat_elytra.elytra.description": "Rodea un Elytra con Alas",
+
+
+  "advancements.bat_elytra.armored_elytra.title": "Protegido por un Elytra",
+  "advancements.bat_elytra.armored_elytra.description": "Combina un Elytra de Murciélago con una Plata de netherito"
 
 }

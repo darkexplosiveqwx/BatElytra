@@ -1,654 +1,683 @@
-[26Nov2022 10:31:32.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.52, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[26Nov2022 10:31:32.527] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
-[26Nov2022 10:31:32.866] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/johan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[26Nov2022 10:31:33.818] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.52\15567d99c9572096b38b5ce4d5d3d205b2356e47\javafmllanguage-1.19.2-43.1.52.jar is missing mods.toml file
-[26Nov2022 10:31:33.823] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.52\25cf253a5814c855c978bb7dc808d5991adb5eaf\lowcodelanguage-1.19.2-43.1.52.jar is missing mods.toml file
-[26Nov2022 10:31:33.831] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.52\b6cfdb1c54bb57ffee28f7591f1f19c57f29dfb4\mclanguage-1.19.2-43.1.52.jar is missing mods.toml file
-[26Nov2022 10:31:33.838] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.52\1522df0ea44e9447d69d877190a2540576361f12\fmlcore-1.19.2-43.1.52.jar is missing mods.toml file
-[26Nov2022 10:31:34.044] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26Nov2022 10:31:37.082] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[26Nov2022 10:31:44.610] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[26Nov2022 10:31:48.770] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/V:/Users/johan/Desktop/Bat/build/fg_cache/net/minecraftforge/forge/1.19.2-43.1.52_mapped_official_1.19.2/forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[26Nov2022 10:31:48.771] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/V:/Users/johan/Desktop/Bat/build/fg_cache/net/minecraftforge/forge/1.19.2-43.1.52_mapped_official_1.19.2/forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[26Nov2022 10:31:48.795] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Nov2022 10:31:48.804] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[26Nov2022 10:31:49.036] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[26Nov2022 10:31:50.180] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.52, for MC 1.19.2 with MCP 20220805.130853
-[26Nov2022 10:31:50.184] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.52 Initialized
-[26Nov2022 10:31:52.620] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
-[26Nov2022 10:31:52.968] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[26Nov2022 10:31:53.025] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[26Nov2022 10:31:53.437] [Worker-Main-6/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM COMMON SETUP
-[26Nov2022 10:31:53.438] [Worker-Main-6/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: DIRT BLOCK >> minecraft:dirt
-[26Nov2022 10:31:54.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Nov2022 10:31:54.710] [Worker-Main-2/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM CLIENT SETUP
-[26Nov2022 10:31:54.710] [Worker-Main-2/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: MINECRAFT NAME >> Dev
-[26Nov2022 10:31:55.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.52 Target: 43.1.57
-[26Nov2022 10:31:55.483] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bat_elytra] Starting version check at https://github.com/darkexplosiveqwx/BatElytra/releases
-[26Nov2022 10:31:56.431] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[24Dec2022 22:44:56.491] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 2, --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 44.0.6, --fml.mcVersion, 1.19.3, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20221207.122022]
+[24Dec2022 22:44:56.502] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[24Dec2022 22:44:56.890] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/johan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
+[24Dec2022 22:44:57.887] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.3-44.0.6\3e2f7b7782b9d0b57a11a79f38d1f064fc92ca28\javafmllanguage-1.19.3-44.0.6.jar is missing mods.toml file
+[24Dec2022 22:44:57.898] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.3-44.0.6\5b24435a8438ead3b51dcf31f1f1561db1b0d835\lowcodelanguage-1.19.3-44.0.6.jar is missing mods.toml file
+[24Dec2022 22:44:57.910] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.3-44.0.6\903ce07d777b1821f833005d0927a3f9e78bbfd6\mclanguage-1.19.3-44.0.6.jar is missing mods.toml file
+[24Dec2022 22:44:57.922] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\johan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.3-44.0.6\145c3f7b4c11390a8a52bb9e96a0f81271a35535\fmlcore-1.19.3-44.0.6.jar is missing mods.toml file
+[24Dec2022 22:44:58.165] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[24Dec2022 22:45:01.047] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\johan\.gradle\caches\forge_gradle\assets, --assetIndex, 2]
+[24Dec2022 22:45:14.488] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[24Dec2022 22:45:18.386] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/V:/Users/johan/Desktop/Bat/build/fg_cache/net/minecraftforge/forge/1.19.3-44.0.6_mapped_official_1.19.3/forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar%23186!/assets/.mcassetsroot' uses unexpected schema
+[24Dec2022 22:45:18.388] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/V:/Users/johan/Desktop/Bat/build/fg_cache/net/minecraftforge/forge/1.19.3-44.0.6_mapped_official_1.19.3/forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar%23186!/data/.mcassetsroot' uses unexpected schema
+[24Dec2022 22:45:18.439] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Dec2022 22:45:18.448] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[24Dec2022 22:45:18.846] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[24Dec2022 22:45:20.726] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 44.0.6, for MC 1.19.3 with MCP 20221207.122022
+[24Dec2022 22:45:20.730] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v44.0.6 Initialized
+[24Dec2022 22:45:23.791] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[24Dec2022 22:45:24.097] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[24Dec2022 22:45:24.211] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[24Dec2022 22:45:24.376] [Worker-Main-7/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM COMMON SETUP
+[24Dec2022 22:45:24.385] [Worker-Main-7/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: DIRT BLOCK >> minecraft:dirt
+[24Dec2022 22:45:25.442] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Dec2022 22:45:25.818] [Worker-Main-1/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO FROM CLIENT SETUP
+[24Dec2022 22:45:25.819] [Worker-Main-1/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: MINECRAFT NAME >> Dev
+[24Dec2022 22:45:26.254] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture bat_elytra:item/armored_bat_elytra with size 24x24 limits mip level from 4 to 3
+[24Dec2022 22:45:27.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 44.0.6 Target: 44.0.37
+[24Dec2022 22:45:27.186] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bat_elytra] Starting version check at https://github.com/darkexplosiveqwx/BatElytra/releases
+[24Dec2022 22:45:28.057] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 8 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%23148!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%23148!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%23148!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%23148!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.1.52.jar%23187!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.1.52.jar%23187!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%23123!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23123!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%23123!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%23123!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.3-44.0.6.jar%23190!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.19.3-44.0.6.jar%23190!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 8 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%23148!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%23148!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%23148!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23148!/:?]
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%23123!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%23123!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23123!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23123!/:?]
 	... 6 more
-[26Nov2022 10:32:14.433] [Worker-Main-1/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture bat_elytra:item/armored_bat_elytra with size 24x24 limits mip level from 4 to 3
-[26Nov2022 10:32:18.188] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[26Nov2022 10:32:18.188] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[26Nov2022 10:32:18.326] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 1 - ASUS VG279Q1A (AMD High Definition Audio Device)
-[26Nov2022 10:32:18.327] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[26Nov2022 10:32:18.650] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[26Nov2022 10:32:18.835] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[26Nov2022 10:32:18.837] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[26Nov2022 10:32:18.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[26Nov2022 10:32:18.850] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[26Nov2022 10:32:18.853] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[26Nov2022 10:32:18.856] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[26Nov2022 10:32:20.866] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[26Nov2022 10:32:21.330] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[26Nov2022 10:32:21.338] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[26Nov2022 10:32:21.339] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[26Nov2022 10:32:22.003] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[26Nov2022 10:33:17.637] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Nov2022 10:33:21.701] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1183 advancements
-[26Nov2022 10:33:26.919] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Nov2022 10:33:28.481] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1183 advancements
-[26Nov2022 10:34:44.348] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:34:44.352] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:34:45.329] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:34:49.096] [Render thread/WARN] [net.minecraft.client.gui.screens.packs.PackSelectionScreen/]: Failed to copy datapack file  from V:\Users\johan\Desktop\Bat\hard_mode\bat_hard.zip to C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924
-java.nio.file.FileAlreadyExistsException: C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip
-	at sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:124) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284) ~[?:?]
-	at java.nio.file.Files.copy(Files.java:1305) ~[?:?]
-	at net.minecraft.Util.copyBetweenDirs(Util.java:689) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.screens.packs.PackSelectionScreen.lambda$copyPacks$3(PackSelectionScreen.java:170) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.client.gui.screens.packs.PackSelectionScreen.lambda$copyPacks$4(PackSelectionScreen.java:168) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at java.util.Arrays$ArrayList.forEach(Arrays.java:4204) ~[?:?]
-	at net.minecraft.client.gui.screens.packs.PackSelectionScreen.copyPacks(PackSelectionScreen.java:163) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.screens.packs.PackSelectionScreen.lambda$onFilesDrop$5(PackSelectionScreen.java:208) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.screens.ConfirmScreen.lambda$addButtons$0(ConfirmScreen.java:52) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.components.Button.onPress(Button.java:32) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:110) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23162!/:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23168!/:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23162!/:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.1.52_mapped_official_1.19.2-recomp.jar%23183!/:?]
+[24Dec2022 22:45:34.437] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[24Dec2022 22:45:34.438] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[24Dec2022 22:45:34.538] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Lautsprecher (DisplayLink Audio)
+[24Dec2022 22:45:34.540] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[24Dec2022 22:45:34.645] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[24Dec2022 22:45:34.840] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[24Dec2022 22:45:34.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[24Dec2022 22:45:34.851] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[24Dec2022 22:45:34.859] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[24Dec2022 22:45:34.861] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[24Dec2022 22:45:34.864] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24Dec2022 22:45:35.379] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[24Dec2022 22:45:35.504] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[24Dec2022 22:45:35.515] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[24Dec2022 22:45:35.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24Dec2022 22:45:36.216] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[24Dec2022 22:45:43.945] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 43.1.52 -> 44.0.6)
+Things may not work well.
+[24Dec2022 22:45:44.004] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:worldgen/biome
+	minecraft:badlands: 26
+	minecraft:bamboo_jungle: 25
+	minecraft:basalt_deltas: 57
+	minecraft:beach: 37
+	minecraft:birch_forest: 10
+	minecraft:cold_ocean: 45
+	minecraft:crimson_forest: 55
+	minecraft:dark_forest: 11
+	minecraft:deep_cold_ocean: 46
+	minecraft:deep_dark: 52
+	minecraft:deep_frozen_ocean: 48
+	minecraft:deep_lukewarm_ocean: 42
+	minecraft:deep_ocean: 44
+	minecraft:desert: 5
+	minecraft:dripstone_caves: 50
+	minecraft:end_barrens: 62
+	minecraft:end_highlands: 59
+	minecraft:end_midlands: 60
+	minecraft:eroded_badlands: 27
+	minecraft:flower_forest: 9
+	minecraft:forest: 8
+	minecraft:frozen_ocean: 47
+	minecraft:frozen_peaks: 32
+	minecraft:frozen_river: 36
+	minecraft:grove: 30
+	minecraft:ice_spikes: 4
+	minecraft:jagged_peaks: 33
+	minecraft:jungle: 23
+	minecraft:lukewarm_ocean: 41
+	minecraft:lush_caves: 51
+	minecraft:mangrove_swamp: 7
+	minecraft:meadow: 29
+	minecraft:mushroom_fields: 49
+	minecraft:nether_wastes: 53
+	minecraft:ocean: 43
+	minecraft:old_growth_birch_forest: 12
+	minecraft:old_growth_pine_taiga: 13
+	minecraft:old_growth_spruce_taiga: 14
+	minecraft:plains: 1
+	minecraft:river: 35
+	minecraft:savanna: 17
+	minecraft:savanna_plateau: 18
+	minecraft:small_end_islands: 61
+	minecraft:snowy_beach: 38
+	minecraft:snowy_plains: 3
+	minecraft:snowy_slopes: 31
+	minecraft:snowy_taiga: 16
+	minecraft:soul_sand_valley: 56
+	minecraft:sparse_jungle: 24
+	minecraft:stony_peaks: 34
+	minecraft:stony_shore: 39
+	minecraft:sunflower_plains: 2
+	minecraft:swamp: 6
+	minecraft:taiga: 15
+	minecraft:the_end: 58
+	minecraft:the_void: 0
+	minecraft:warm_ocean: 40
+	minecraft:warped_forest: 54
+	minecraft:windswept_forest: 21
+	minecraft:windswept_gravelly_hills: 20
+	minecraft:windswept_hills: 19
+	minecraft:windswept_savanna: 22
+	minecraft:wooded_badlands: 28
+
+[24Dec2022 22:45:44.008] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 63 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[24Dec2022 22:45:44.009] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:worldgen/biome:
+    minecraft:badlands
+    minecraft:bamboo_jungle
+    minecraft:basalt_deltas
+    minecraft:beach
+    minecraft:birch_forest
+    minecraft:cold_ocean
+    minecraft:crimson_forest
+    minecraft:dark_forest
+    minecraft:deep_cold_ocean
+    minecraft:deep_dark
+    minecraft:deep_frozen_ocean
+    minecraft:deep_lukewarm_ocean
+    minecraft:deep_ocean
+    minecraft:desert
+    minecraft:dripstone_caves
+    minecraft:end_barrens
+    minecraft:end_highlands
+    minecraft:end_midlands
+    minecraft:eroded_badlands
+    minecraft:flower_forest
+    minecraft:forest
+    minecraft:frozen_ocean
+    minecraft:frozen_peaks
+    minecraft:frozen_river
+    minecraft:grove
+    minecraft:ice_spikes
+    minecraft:jagged_peaks
+    minecraft:jungle
+    minecraft:lukewarm_ocean
+    minecraft:lush_caves
+    minecraft:mangrove_swamp
+    minecraft:meadow
+    minecraft:mushroom_fields
+    minecraft:nether_wastes
+    minecraft:ocean
+    minecraft:old_growth_birch_forest
+    minecraft:old_growth_pine_taiga
+    minecraft:old_growth_spruce_taiga
+    minecraft:plains
+    minecraft:river
+    minecraft:savanna
+    minecraft:savanna_plateau
+    minecraft:small_end_islands
+    minecraft:snowy_beach
+    minecraft:snowy_plains
+    minecraft:snowy_slopes
+    minecraft:snowy_taiga
+    minecraft:soul_sand_valley
+    minecraft:sparse_jungle
+    minecraft:stony_peaks
+    minecraft:stony_shore
+    minecraft:sunflower_plains
+    minecraft:swamp
+    minecraft:taiga
+    minecraft:the_end
+    minecraft:the_void
+    minecraft:warm_ocean
+    minecraft:warped_forest
+    minecraft:windswept_forest
+    minecraft:windswept_gravelly_hills
+    minecraft:windswept_hills
+    minecraft:windswept_savanna
+    minecraft:wooded_badlands
+
+
+[24Dec2022 22:45:44.009] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[24Dec2022 22:45:44.013] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_planks Expected: 20 Got: 933
+[24Dec2022 22:45:44.013] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_mosaic Expected: 21 Got: 934
+[24Dec2022 22:45:44.013] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_block Expected: 51 Got: 935
+[24Dec2022 22:45:44.014] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:stripped_bamboo_block Expected: 59 Got: 936
+[24Dec2022 22:45:44.014] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:chiseled_bookshelf Expected: 158 Got: 937
+[24Dec2022 22:45:44.014] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_sign Expected: 183 Got: 938
+[24Dec2022 22:45:44.014] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_wall_sign Expected: 195 Got: 939
+[24Dec2022 22:45:44.015] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:oak_hanging_sign Expected: 196 Got: 940
+[24Dec2022 22:45:44.015] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:spruce_hanging_sign Expected: 197 Got: 941
+[24Dec2022 22:45:44.015] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:birch_hanging_sign Expected: 198 Got: 942
+[24Dec2022 22:45:44.016] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:acacia_hanging_sign Expected: 199 Got: 943
+[24Dec2022 22:45:44.016] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:jungle_hanging_sign Expected: 200 Got: 944
+[24Dec2022 22:45:44.016] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:dark_oak_hanging_sign Expected: 201 Got: 945
+[24Dec2022 22:45:44.017] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:crimson_hanging_sign Expected: 202 Got: 946
+[24Dec2022 22:45:44.017] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:warped_hanging_sign Expected: 203 Got: 947
+[24Dec2022 22:45:44.018] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:mangrove_hanging_sign Expected: 204 Got: 948
+[24Dec2022 22:45:44.018] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_hanging_sign Expected: 205 Got: 949
+[24Dec2022 22:45:44.018] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:oak_wall_hanging_sign Expected: 206 Got: 950
+[24Dec2022 22:45:44.018] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:spruce_wall_hanging_sign Expected: 207 Got: 951
+[24Dec2022 22:45:44.019] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:birch_wall_hanging_sign Expected: 208 Got: 952
+[24Dec2022 22:45:44.019] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:acacia_wall_hanging_sign Expected: 209 Got: 953
+[24Dec2022 22:45:44.019] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:jungle_wall_hanging_sign Expected: 210 Got: 954
+[24Dec2022 22:45:44.019] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:dark_oak_wall_hanging_sign Expected: 211 Got: 955
+[24Dec2022 22:45:44.020] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:mangrove_wall_hanging_sign Expected: 212 Got: 956
+[24Dec2022 22:45:44.020] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:crimson_wall_hanging_sign Expected: 213 Got: 957
+[24Dec2022 22:45:44.020] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:warped_wall_hanging_sign Expected: 214 Got: 958
+[24Dec2022 22:45:44.020] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_wall_hanging_sign Expected: 215 Got: 959
+[24Dec2022 22:45:44.020] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_pressure_plate Expected: 226 Got: 960
+[24Dec2022 22:45:44.021] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_trapdoor Expected: 277 Got: 961
+[24Dec2022 22:45:44.021] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_button Expected: 374 Got: 962
+[24Dec2022 22:45:44.021] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:piglin_head Expected: 387 Got: 963
+[24Dec2022 22:45:44.022] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:piglin_wall_head Expected: 388 Got: 964
+[24Dec2022 22:45:44.022] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_stairs Expected: 441 Got: 965
+[24Dec2022 22:45:44.022] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_mosaic_stairs Expected: 442 Got: 966
+[24Dec2022 22:45:44.023] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_slab Expected: 526 Got: 967
+[24Dec2022 22:45:44.023] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_mosaic_slab Expected: 527 Got: 968
+[24Dec2022 22:45:44.023] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_fence_gate Expected: 552 Got: 969
+[24Dec2022 22:45:44.024] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_fence Expected: 559 Got: 970
+[24Dec2022 22:45:44.024] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:bamboo_door Expected: 566 Got: 971
+[24Dec2022 22:45:44.025] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_planks Expected: 30 Got: 1155
+[24Dec2022 22:45:44.026] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_mosaic Expected: 33 Got: 1156
+[24Dec2022 22:45:44.026] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_block Expected: 117 Got: 1157
+[24Dec2022 22:45:44.026] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:stripped_bamboo_block Expected: 136 Got: 1158
+[24Dec2022 22:45:44.026] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_slab Expected: 225 Got: 1159
+[24Dec2022 22:45:44.027] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_mosaic_slab Expected: 226 Got: 1160
+[24Dec2022 22:45:44.027] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:chiseled_bookshelf Expected: 252 Got: 1161
+[24Dec2022 22:45:44.027] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_fence Expected: 282 Got: 1162
+[24Dec2022 22:45:44.028] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_stairs Expected: 353 Got: 1163
+[24Dec2022 22:45:44.028] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_mosaic_stairs Expected: 354 Got: 1164
+[24Dec2022 22:45:44.028] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_button Expected: 651 Got: 1165
+[24Dec2022 22:45:44.028] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_pressure_plate Expected: 665 Got: 1166
+[24Dec2022 22:45:44.029] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_door Expected: 676 Got: 1167
+[24Dec2022 22:45:44.029] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_trapdoor Expected: 687 Got: 1168
+[24Dec2022 22:45:44.029] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_fence_gate Expected: 697 Got: 1169
+[24Dec2022 22:45:44.029] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_raft Expected: 727 Got: 1170
+[24Dec2022 22:45:44.029] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_chest_raft Expected: 728 Got: 1171
+[24Dec2022 22:45:44.030] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_sign Expected: 828 Got: 1172
+[24Dec2022 22:45:44.030] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:oak_hanging_sign Expected: 831 Got: 1173
+[24Dec2022 22:45:44.030] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:spruce_hanging_sign Expected: 832 Got: 1174
+[24Dec2022 22:45:44.030] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:birch_hanging_sign Expected: 833 Got: 1175
+[24Dec2022 22:45:44.031] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:jungle_hanging_sign Expected: 834 Got: 1176
+[24Dec2022 22:45:44.031] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:acacia_hanging_sign Expected: 835 Got: 1177
+[24Dec2022 22:45:44.031] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:dark_oak_hanging_sign Expected: 836 Got: 1178
+[24Dec2022 22:45:44.032] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:mangrove_hanging_sign Expected: 837 Got: 1179
+[24Dec2022 22:45:44.032] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:bamboo_hanging_sign Expected: 838 Got: 1180
+[24Dec2022 22:45:44.032] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:crimson_hanging_sign Expected: 839 Got: 1181
+[24Dec2022 22:45:44.032] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:warped_hanging_sign Expected: 840 Got: 1182
+[24Dec2022 22:45:44.033] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:camel_spawn_egg Expected: 946 Got: 1183
+[24Dec2022 22:45:44.033] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:ender_dragon_spawn_egg Expected: 956 Got: 1184
+[24Dec2022 22:45:44.033] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:iron_golem_spawn_egg Expected: 969 Got: 1185
+[24Dec2022 22:45:44.033] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:snow_golem_spawn_egg Expected: 993 Got: 1186
+[24Dec2022 22:45:44.033] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:wither_spawn_egg Expected: 1008 Got: 1187
+[24Dec2022 22:45:44.034] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:piglin_head Expected: 1035 Got: 1188
+[24Dec2022 22:45:44.035] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood.break Expected: 97 Got: 1321
+[24Dec2022 22:45:44.035] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood.fall Expected: 98 Got: 1322
+[24Dec2022 22:45:44.035] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood.hit Expected: 99 Got: 1323
+[24Dec2022 22:45:44.035] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood.place Expected: 100 Got: 1324
+[24Dec2022 22:45:44.036] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood.step Expected: 101 Got: 1325
+[24Dec2022 22:45:44.036] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_door.close Expected: 102 Got: 1326
+[24Dec2022 22:45:44.036] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_door.open Expected: 103 Got: 1327
+[24Dec2022 22:45:44.036] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_trapdoor.close Expected: 104 Got: 1328
+[24Dec2022 22:45:44.037] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_trapdoor.open Expected: 105 Got: 1329
+[24Dec2022 22:45:44.037] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_button.click_off Expected: 106 Got: 1330
+[24Dec2022 22:45:44.037] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_button.click_on Expected: 107 Got: 1331
+[24Dec2022 22:45:44.037] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_pressure_plate.click_off Expected: 108 Got: 1332
+[24Dec2022 22:45:44.038] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_pressure_plate.click_on Expected: 109 Got: 1333
+[24Dec2022 22:45:44.038] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_fence_gate.close Expected: 110 Got: 1334
+[24Dec2022 22:45:44.038] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_fence_gate.open Expected: 111 Got: 1335
+[24Dec2022 22:45:44.038] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.ambient Expected: 192 Got: 1336
+[24Dec2022 22:45:44.038] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.dash Expected: 193 Got: 1337
+[24Dec2022 22:45:44.038] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.dash_ready Expected: 194 Got: 1338
+[24Dec2022 22:45:44.039] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.death Expected: 195 Got: 1339
+[24Dec2022 22:45:44.039] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.eat Expected: 196 Got: 1340
+[24Dec2022 22:45:44.039] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.hurt Expected: 197 Got: 1341
+[24Dec2022 22:45:44.040] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.saddle Expected: 198 Got: 1342
+[24Dec2022 22:45:44.040] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.sit Expected: 199 Got: 1343
+[24Dec2022 22:45:44.040] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.stand Expected: 200 Got: 1344
+[24Dec2022 22:45:44.040] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.step Expected: 201 Got: 1345
+[24Dec2022 22:45:44.040] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:entity.camel.step_sand Expected: 202 Got: 1346
+[24Dec2022 22:45:44.040] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.break Expected: 239 Got: 1347
+[24Dec2022 22:45:44.041] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.fall Expected: 240 Got: 1348
+[24Dec2022 22:45:44.041] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.hit Expected: 241 Got: 1349
+[24Dec2022 22:45:44.041] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.insert Expected: 242 Got: 1350
+[24Dec2022 22:45:44.041] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.insert.enchanted Expected: 243 Got: 1351
+[24Dec2022 22:45:44.041] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.step Expected: 244 Got: 1352
+[24Dec2022 22:45:44.041] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.pickup Expected: 245 Got: 1353
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.pickup.enchanted Expected: 246 Got: 1354
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.chiseled_bookshelf.place Expected: 247 Got: 1355
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.hanging_sign.step Expected: 542 Got: 1356
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.hanging_sign.break Expected: 543 Got: 1357
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.hanging_sign.fall Expected: 544 Got: 1358
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.hanging_sign.hit Expected: 545 Got: 1359
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.hanging_sign.place Expected: 546 Got: 1360
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_hanging_sign.step Expected: 547 Got: 1361
+[24Dec2022 22:45:44.042] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_hanging_sign.break Expected: 548 Got: 1362
+[24Dec2022 22:45:44.043] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_hanging_sign.fall Expected: 549 Got: 1363
+[24Dec2022 22:45:44.044] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_hanging_sign.hit Expected: 550 Got: 1364
+[24Dec2022 22:45:44.044] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_hanging_sign.place Expected: 551 Got: 1365
+[24Dec2022 22:45:44.044] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_hanging_sign.step Expected: 552 Got: 1366
+[24Dec2022 22:45:44.044] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_hanging_sign.break Expected: 553 Got: 1367
+[24Dec2022 22:45:44.045] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_hanging_sign.fall Expected: 554 Got: 1368
+[24Dec2022 22:45:44.045] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_hanging_sign.hit Expected: 555 Got: 1369
+[24Dec2022 22:45:44.045] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.bamboo_wood_hanging_sign.place Expected: 556 Got: 1370
+[24Dec2022 22:45:44.045] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood.break Expected: 773 Got: 1371
+[24Dec2022 22:45:44.045] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood.fall Expected: 774 Got: 1372
+[24Dec2022 22:45:44.046] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood.hit Expected: 775 Got: 1373
+[24Dec2022 22:45:44.046] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood.place Expected: 776 Got: 1374
+[24Dec2022 22:45:44.046] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood.step Expected: 777 Got: 1375
+[24Dec2022 22:45:44.046] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_door.close Expected: 778 Got: 1376
+[24Dec2022 22:45:44.046] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_door.open Expected: 779 Got: 1377
+[24Dec2022 22:45:44.046] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_trapdoor.close Expected: 780 Got: 1378
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_trapdoor.open Expected: 781 Got: 1379
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_button.click_off Expected: 782 Got: 1380
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_button.click_on Expected: 783 Got: 1381
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_pressure_plate.click_off Expected: 784 Got: 1382
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_pressure_plate.click_on Expected: 785 Got: 1383
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_fence_gate.close Expected: 786 Got: 1384
+[24Dec2022 22:45:44.047] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.nether_wood_fence_gate.open Expected: 787 Got: 1385
+[24Dec2022 22:45:44.048] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.note_block.imitate.zombie Expected: 849 Got: 1386
+[24Dec2022 22:45:44.048] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.note_block.imitate.skeleton Expected: 850 Got: 1387
+[24Dec2022 22:45:44.048] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.note_block.imitate.creeper Expected: 851 Got: 1388
+[24Dec2022 22:45:44.049] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.note_block.imitate.ender_dragon Expected: 852 Got: 1389
+[24Dec2022 22:45:44.049] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.note_block.imitate.wither_skeleton Expected: 853 Got: 1390
+[24Dec2022 22:45:44.049] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.note_block.imitate.piglin Expected: 854 Got: 1391
+[24Dec2022 22:45:44.050] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: minecraft:camel Expected: 11 Got: 118
+[24Dec2022 22:45:44.053] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:memory_module_type: Object did not get ID it asked for. Name: minecraft:gaze_cooldown_ticks Expected: 41 Got: 92
+[24Dec2022 22:45:44.814] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack file/bat_hard.zip
+[24Dec2022 22:45:44.996] [Render thread/WARN] [net.minecraft.client.gui.screens.worldselection.WorldOpenFlows/]: Failed to load level data or datapacks, can't proceed with server load
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Missing element ResourceKey[minecraft:worldgen/biome / minecraft:mushroom_fields]
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:157) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:106) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:174) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:162) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:62) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:516) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:430) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:378) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:336) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:30) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:530) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:164) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:297) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1164) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:713) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.1.52.jar%2395!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[26Nov2022 10:34:49.104] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:34:49.108] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:34:55.467] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:35:07.325] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:35:07.329] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:35:08.275] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack 'C:\Users\johan\AppData\Local\Temp\mcworld-9337725105048872924\bat_hard.zip'
-[26Nov2022 10:35:19.429] [Render thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Couldn't get pack info for: net.minecraft.server.packs.ResourcePackFileNotFoundException: 'pack.mcmeta' in ResourcePack '.\saves\New World\datapacks\bat_hard.zip'
-[26Nov2022 10:35:19.593] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[26Nov2022 10:35:19.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Nov2022 10:35:19.703] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
-[26Nov2022 10:35:19.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[26Nov2022 10:35:19.706] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[26Nov2022 10:35:19.706] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[26Nov2022 10:35:19.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[26Nov2022 10:35:19.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[26Nov2022 10:35:19.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[26Nov2022 10:35:19.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[26Nov2022 10:35:19.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[26Nov2022 10:35:41.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Nov2022 10:35:43.443] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:43.443] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:43.443] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:43.444] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:43.444] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:43.951] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:44.435] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:44.995] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:45.402] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:45.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Nov2022 10:35:46.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[26Nov2022 10:35:46.921] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[26Nov2022 10:35:47.388] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[26Nov2022 10:35:47.874] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[26Nov2022 10:35:48.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[26Nov2022 10:35:48.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[26Nov2022 10:35:49.407] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[26Nov2022 10:35:49.921] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[26Nov2022 10:35:50.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[26Nov2022 10:35:50.880] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[26Nov2022 10:35:51.400] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[26Nov2022 10:35:51.927] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[26Nov2022 10:35:52.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[26Nov2022 10:35:52.919] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[26Nov2022 10:35:53.449] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[26Nov2022 10:35:53.924] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[26Nov2022 10:35:54.415] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[26Nov2022 10:35:55.045] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[26Nov2022 10:35:55.409] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[26Nov2022 10:35:55.908] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[26Nov2022 10:35:56.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[26Nov2022 10:35:56.908] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[26Nov2022 10:35:57.435] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[26Nov2022 10:35:57.952] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[26Nov2022 10:35:58.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[26Nov2022 10:35:58.890] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[26Nov2022 10:35:59.434] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[26Nov2022 10:35:59.885] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[26Nov2022 10:36:00.393] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[26Nov2022 10:36:00.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[26Nov2022 10:36:01.393] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[26Nov2022 10:36:01.881] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[26Nov2022 10:36:02.393] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[26Nov2022 10:36:02.951] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[26Nov2022 10:36:03.435] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[26Nov2022 10:36:03.951] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[26Nov2022 10:36:04.389] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[26Nov2022 10:36:04.946] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[26Nov2022 10:36:05.502] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[26Nov2022 10:36:05.878] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[26Nov2022 10:36:06.414] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[26Nov2022 10:36:06.904] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[26Nov2022 10:36:07.390] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[26Nov2022 10:36:07.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[26Nov2022 10:36:08.453] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[26Nov2022 10:36:08.900] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[26Nov2022 10:36:09.412] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[26Nov2022 10:36:09.916] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[26Nov2022 10:36:10.393] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[26Nov2022 10:36:10.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[26Nov2022 10:36:11.513] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[26Nov2022 10:36:11.950] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[26Nov2022 10:36:12.440] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[26Nov2022 10:36:12.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[26Nov2022 10:36:13.475] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[26Nov2022 10:36:13.900] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[26Nov2022 10:36:14.435] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[26Nov2022 10:36:14.913] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[26Nov2022 10:36:15.438] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[26Nov2022 10:36:15.921] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[26Nov2022 10:36:16.401] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[26Nov2022 10:36:16.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[26Nov2022 10:36:17.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[26Nov2022 10:36:17.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[26Nov2022 10:36:18.418] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[26Nov2022 10:36:18.993] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[26Nov2022 10:36:19.383] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[26Nov2022 10:36:19.885] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[26Nov2022 10:36:20.389] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[26Nov2022 10:36:20.906] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[26Nov2022 10:36:21.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[26Nov2022 10:36:21.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[26Nov2022 10:36:22.447] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[26Nov2022 10:36:22.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[26Nov2022 10:36:23.440] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[26Nov2022 10:36:23.908] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[26Nov2022 10:36:24.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[26Nov2022 10:36:24.901] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[26Nov2022 10:36:25.384] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[26Nov2022 10:36:25.966] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[26Nov2022 10:36:26.384] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[26Nov2022 10:36:26.883] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[26Nov2022 10:36:27.530] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[26Nov2022 10:36:27.892] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[26Nov2022 10:36:28.453] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[26Nov2022 10:36:28.886] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[26Nov2022 10:36:29.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[26Nov2022 10:36:29.946] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[26Nov2022 10:36:30.477] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[26Nov2022 10:36:30.991] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[26Nov2022 10:36:31.390] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[26Nov2022 10:36:31.876] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[26Nov2022 10:36:32.394] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[26Nov2022 10:36:32.883] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[26Nov2022 10:36:33.424] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[26Nov2022 10:36:33.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[26Nov2022 10:36:34.533] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[26Nov2022 10:36:34.874] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[26Nov2022 10:36:35.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[26Nov2022 10:36:35.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[26Nov2022 10:36:36.411] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[26Nov2022 10:36:36.914] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[26Nov2022 10:36:37.399] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[26Nov2022 10:36:37.883] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[26Nov2022 10:36:38.432] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[26Nov2022 10:36:38.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[26Nov2022 10:36:39.441] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[26Nov2022 10:36:39.891] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[26Nov2022 10:36:40.447] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[26Nov2022 10:36:40.882] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[26Nov2022 10:36:41.442] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[26Nov2022 10:36:41.909] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Nov2022 10:36:42.381] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Nov2022 10:36:42.914] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Nov2022 10:36:43.413] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[26Nov2022 10:36:43.943] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[26Nov2022 10:36:44.421] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[26Nov2022 10:36:44.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[26Nov2022 10:36:45.500] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[26Nov2022 10:36:45.910] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[26Nov2022 10:36:46.442] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[26Nov2022 10:36:46.949] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[26Nov2022 10:36:47.400] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[26Nov2022 10:36:47.923] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[26Nov2022 10:36:48.560] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[26Nov2022 10:36:49.113] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[26Nov2022 10:36:49.439] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Nov2022 10:36:49.439] [Server thread/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO from server starting
-[26Nov2022 10:36:49.446] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[26Nov2022 10:36:49.446] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 68074 ms
-[26Nov2022 10:36:49.677] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[26Nov2022 10:36:49.685] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[26Nov2022 10:36:50.054] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[26Nov2022 10:36:51.461] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[26Nov2022 10:36:51.569] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@25c90549
-[26Nov2022 10:36:51.617] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:524eca62] logged in with entity id 149 at (147.5, 64.0, 111.5)
-[26Nov2022 10:36:51.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[26Nov2022 10:36:52.659] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2118ms or 42 ticks behind
-[26Nov2022 10:36:57.672] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[26Nov2022 10:37:02.352] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Nov2022 10:37:02.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Nov2022 10:37:05.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Nov2022 10:37:05.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Nov2022 10:39:28.074] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Nov2022 10:39:28.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Nov2022 10:39:29.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Nov2022 10:39:29.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Nov2022 10:39:29.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2230ms or 44 ticks behind
-[26Nov2022 10:39:36.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Bat Elytra]
-[26Nov2022 10:39:36.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Bat Elytra]
-[26Nov2022 10:39:36.836] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Bat Elytra]
-[26Nov2022 10:39:36.862] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Bat Elytra]
-[26Nov2022 10:39:36.865] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
-[26Nov2022 10:39:39.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Bat Elytra]
-[26Nov2022 10:39:40.019] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Bat Elytra]
-[26Nov2022 10:39:40.022] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
-[26Nov2022 10:39:43.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Protected by an Elytra]
-[26Nov2022 10:39:43.343] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Protected by an Elytra]
-[26Nov2022 10:39:43.344] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
-[26Nov2022 10:39:49.192] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Nov2022 10:39:49.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Nov2022 10:39:49.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Nov2022 10:39:49.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Nov2022 10:39:58.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
-[26Nov2022 10:39:58.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...ack enable<--[HERE]
-[26Nov2022 10:40:00.432] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[26Nov2022 10:40:03.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Disabling data pack [vanilla (built-in)]]
-[26Nov2022 10:40:03.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Disabling data pack [vanilla (built-in)]
-[26Nov2022 10:40:03.971] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:is_ocean (from ), #minecraft:is_river (from )] as it is missing following references: #minecraft:is_ocean (from ), 
-	#minecraft:is_river (from )
-[26Nov2022 10:40:03.985] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:redstone_ores (from )] as it is missing following references: #minecraft:redstone_ores (from )
-[26Nov2022 10:40:03.986] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:copper_ores (from )] as it is missing following references: #minecraft:copper_ores (from )
-[26Nov2022 10:40:03.987] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:gold_ores (from )] as it is missing following references: #minecraft:gold_ores (from )
-[26Nov2022 10:40:03.987] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:diamond_ores (from )] as it is missing following references: #minecraft:diamond_ores (from )
-[26Nov2022 10:40:03.988] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:lapis_ores (from )] as it is missing following references: #minecraft:lapis_ores (from )
-[26Nov2022 10:40:03.988] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:iron_ores (from )] as it is missing following references: #minecraft:iron_ores (from )
-[26Nov2022 10:40:03.988] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:coal_ores (from )] as it is missing following references: #minecraft:coal_ores (from )
-[26Nov2022 10:40:03.989] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:emerald_ores (from )] as it is missing following references: #minecraft:emerald_ores (from )
-[26Nov2022 10:40:03.989] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#forge:ores/coal (from ), #forge:ores/copper (from ), #forge:ores/diamond (from ), #forge:ores/emerald (from ), #forge:ores/gold (from ), #forge:ores/iron (from ), #forge:ores/lapis (from ), #forge:ores/redstone (from )] as it is missing following references: #forge:ores/coal (from ), 
-	#forge:ores/copper (from ), 
-	#forge:ores/diamond (from ), 
-	#forge:ores/emerald (from ), 
-	#forge:ores/gold (from ), 
-	#forge:ores/iron (from ), 
-	#forge:ores/lapis (from ), 
-	#forge:ores/redstone (from )
-[26Nov2022 10:40:03.990] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:wooden_fences (from )] as it is missing following references: #minecraft:wooden_fences (from )
-[26Nov2022 10:40:03.990] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#forge:fences/wooden (from )] as it is missing following references: #forge:fences/wooden (from )
-[26Nov2022 10:40:04.023] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:redstone_ores (from )] as it is missing following references: #minecraft:redstone_ores (from )
-[26Nov2022 10:40:04.025] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:copper_ores (from )] as it is missing following references: #minecraft:copper_ores (from )
-[26Nov2022 10:40:04.026] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:gold_ores (from )] as it is missing following references: #minecraft:gold_ores (from )
-[26Nov2022 10:40:04.027] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:diamond_ores (from )] as it is missing following references: #minecraft:diamond_ores (from )
-[26Nov2022 10:40:04.027] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:lapis_ores (from )] as it is missing following references: #minecraft:lapis_ores (from )
-[26Nov2022 10:40:04.028] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:iron_ores (from )] as it is missing following references: #minecraft:iron_ores (from )
-[26Nov2022 10:40:04.028] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:coal_ores (from )] as it is missing following references: #minecraft:coal_ores (from )
-[26Nov2022 10:40:04.029] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:emerald_ores (from )] as it is missing following references: #minecraft:emerald_ores (from )
-[26Nov2022 10:40:04.030] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#forge:ores/coal (from ), #forge:ores/copper (from ), #forge:ores/diamond (from ), #forge:ores/emerald (from ), #forge:ores/gold (from ), #forge:ores/iron (from ), #forge:ores/lapis (from ), #forge:ores/redstone (from )] as it is missing following references: #forge:ores/coal (from ), 
-	#forge:ores/copper (from ), 
-	#forge:ores/diamond (from ), 
-	#forge:ores/emerald (from ), 
-	#forge:ores/gold (from ), 
-	#forge:ores/iron (from ), 
-	#forge:ores/lapis (from ), 
-	#forge:ores/redstone (from )
-[26Nov2022 10:40:04.030] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#minecraft:wooden_fences (from )] as it is missing following references: #minecraft:wooden_fences (from )
-[26Nov2022 10:40:04.031] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#forge:fences/wooden (from )] as it is missing following references: #forge:fences/wooden (from )
-[26Nov2022 10:40:04.040] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2 recipes
-[26Nov2022 10:40:04.092] [Server thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement bat_elytra:root_end: Task Advancement{parentId=minecraft:end/elytra, display=net.minecraft.advancements.DisplayInfo@542762d5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@13864753}, criteria={bat_elytra=net.minecraft.advancements.Criterion@152be028}, requirements=[[bat_elytra]]}
-[26Nov2022 10:40:04.092] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
-[26Nov2022 10:40:04.097] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/world_preset] are present in data pack: minecraft:extended, minecraft:normal
-[26Nov2022 10:40:04.097] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/flat_level_generator_preset] are present in data pack: minecraft:visible
-[26Nov2022 10:40:04.100] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_water, minecraft:allows_surface_slime_spawns, minecraft:allows_tropical_fish_spawns_at_any_height, minecraft:has_closer_water_fog, minecraft:has_structure/ancient_city, minecraft:has_structure/bastion_remnant, minecraft:has_structure/buried_treasure, minecraft:has_structure/desert_pyramid, minecraft:has_structure/end_city, minecraft:has_structure/igloo, minecraft:has_structure/jungle_temple, minecraft:has_structure/mineshaft, minecraft:has_structure/mineshaft_mesa, minecraft:has_structure/nether_fortress, minecraft:has_structure/nether_fossil, minecraft:has_structure/ocean_monument, minecraft:has_structure/ocean_ruin_cold, minecraft:has_structure/ocean_ruin_warm, minecraft:has_structure/pillager_outpost, minecraft:has_structure/ruined_portal_desert, minecraft:has_structure/ruined_portal_jungle, minecraft:has_structure/ruined_portal_mountain, minecraft:has_structure/ruined_portal_nether, minecraft:has_structure/ruined_portal_ocean, minecraft:has_structure/ruined_portal_standard, minecraft:has_structure/ruined_portal_swamp, minecraft:has_structure/shipwreck, minecraft:has_structure/shipwreck_beached, minecraft:has_structure/stronghold, minecraft:has_structure/swamp_hut, minecraft:has_structure/village_desert, minecraft:has_structure/village_plains, minecraft:has_structure/village_savanna, minecraft:has_structure/village_snowy, minecraft:has_structure/village_taiga, minecraft:has_structure/woodland_mansion, minecraft:is_badlands, minecraft:is_beach, minecraft:is_deep_ocean, minecraft:is_end, minecraft:is_forest, minecraft:is_hill, minecraft:is_jungle, minecraft:is_mountain, minecraft:is_nether, minecraft:is_ocean, minecraft:is_overworld, minecraft:is_river, minecraft:is_savanna, minecraft:is_taiga, minecraft:mineshaft_blocking, minecraft:more_frequent_drowned_spawns, minecraft:only_allows_snow_and_gold_rabbits, minecraft:plays_underwater_music, minecraft:polar_bears_spawn_on_alternate_blocks, minecraft:produces_corals_from_bonemeal, minecraft:reduce_water_ambient_spawns, minecraft:required_ocean_monument_surrounding, minecraft:spawns_cold_variant_frogs, minecraft:spawns_warm_variant_frogs, minecraft:stronghold_biased_to, minecraft:water_on_map_outlines, minecraft:without_patrol_spawns, minecraft:without_wandering_trader_spawns, minecraft:without_zombie_sieges
-[26Nov2022 10:40:04.101] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/structure] are present in data pack: minecraft:cats_spawn_as_black, minecraft:cats_spawn_in, minecraft:dolphin_located, minecraft:eye_of_ender_located, minecraft:mineshaft, minecraft:ocean_ruin, minecraft:on_ocean_explorer_maps, minecraft:on_treasure_maps, minecraft:on_woodland_explorer_maps, minecraft:ruined_portal, minecraft:shipwreck, minecraft:village
-[26Nov2022 10:40:04.102] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:game_event] are present in data pack: minecraft:allay_can_listen, minecraft:ignore_vibrations_sneaking, minecraft:shrieker_can_listen, minecraft:vibrations, minecraft:warden_can_listen
-[26Nov2022 10:40:04.105] [Server thread/WARN] [net.minecraftforge.registries.NamespacedHolderHelper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:fluid] are present in data pack: minecraft:lava, 
-	minecraft:water
-[26Nov2022 10:40:04.107] [Server thread/WARN] [net.minecraftforge.registries.NamespacedHolderHelper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: forge:fences, 
-	forge:fences/wooden, 
-	forge:ores, 
-	forge:ores/coal, 
-	forge:ores/copper, 
-	forge:ores/diamond, 
-	forge:ores/emerald, 
-	forge:ores/gold, 
-	forge:ores/iron, 
-	forge:ores/lapis, 
-	forge:ores/redstone, 
-	minecraft:acacia_logs, 
-	minecraft:ancient_city_replaceable, 
-	minecraft:animals_spawnable_on, 
-	minecraft:anvil, 
-	minecraft:axolotls_spawnable_on, 
-	minecraft:azalea_grows_on, 
-	minecraft:azalea_root_replaceable, 
-	minecraft:bamboo_plantable_on, 
-	minecraft:banners, 
-	minecraft:base_stone_nether, 
-	minecraft:base_stone_overworld, 
-	minecraft:beacon_base_blocks, 
-	minecraft:beds, 
-	minecraft:bee_growables, 
-	minecraft:beehives, 
-	minecraft:big_dripleaf_placeable, 
-	minecraft:birch_logs, 
-	minecraft:buttons, 
-	minecraft:campfires, 
-	minecraft:candle_cakes, 
-	minecraft:candles, 
-	minecraft:cauldrons, 
-	minecraft:cave_vines, 
-	minecraft:climbable, 
-	minecraft:coal_ores, 
-	minecraft:completes_find_tree_tutorial, 
-	minecraft:convertable_to_mud, 
-	minecraft:copper_ores, 
-	minecraft:coral_blocks, 
-	minecraft:coral_plants, 
-	minecraft:corals, 
-	minecraft:crimson_stems, 
-	minecraft:crops, 
-	minecraft:crystal_sound_blocks, 
-	minecraft:dampens_vibrations, 
-	minecraft:dark_oak_logs, 
-	minecraft:dead_bush_may_place_on, 
-	minecraft:deepslate_ore_replaceables, 
-	minecraft:diamond_ores, 
-	minecraft:dirt, 
-	minecraft:doors, 
-	minecraft:dragon_immune, 
-	minecraft:dragon_transparent, 
-	minecraft:dripstone_replaceable_blocks, 
-	minecraft:emerald_ores, 
-	minecraft:enderman_holdable, 
-	minecraft:fall_damage_resetting, 
-	minecraft:features_cannot_replace, 
-	minecraft:fence_gates, 
-	minecraft:fences, 
-	minecraft:fire, 
-	minecraft:flower_pots, 
-	minecraft:flowers, 
-	minecraft:foxes_spawnable_on, 
-	minecraft:frog_prefer_jump_to, 
-	minecraft:frogs_spawnable_on, 
-	minecraft:geode_invalid_blocks, 
-	minecraft:goats_spawnable_on, 
-	minecraft:gold_ores, 
-	minecraft:guarded_by_piglins, 
-	minecraft:hoglin_repellents, 
-	minecraft:ice, 
-	minecraft:impermeable, 
-	minecraft:infiniburn_end, 
-	minecraft:infiniburn_nether, 
-	minecraft:infiniburn_overworld, 
-	minecraft:inside_step_sound_blocks, 
-	minecraft:iron_ores, 
-	minecraft:jungle_logs, 
-	minecraft:lapis_ores, 
-	minecraft:lava_pool_stone_cannot_replace, 
-	minecraft:leaves, 
-	minecraft:logs, 
-	minecraft:logs_that_burn, 
-	minecraft:lush_ground_replaceable, 
-	minecraft:mangrove_logs, 
-	minecraft:mangrove_logs_can_grow_through, 
-	minecraft:mangrove_roots_can_grow_through, 
-	minecraft:mineable/axe, 
-	minecraft:mineable/hoe, 
-	minecraft:mineable/pickaxe, 
-	minecraft:mineable/shovel, 
-	minecraft:mooshrooms_spawnable_on, 
-	minecraft:moss_replaceable, 
-	minecraft:mushroom_grow_block, 
-	minecraft:needs_diamond_tool, 
-	minecraft:needs_iron_tool, 
-	minecraft:needs_stone_tool, 
-	minecraft:nether_carver_replaceables, 
-	minecraft:non_flammable_wood, 
-	minecraft:nylium, 
-	minecraft:oak_logs, 
-	minecraft:occludes_vibration_signals, 
-	minecraft:overworld_carver_replaceables, 
-	minecraft:overworld_natural_logs, 
-	minecraft:parrots_spawnable_on, 
-	minecraft:piglin_repellents, 
-	minecraft:planks, 
-	minecraft:polar_bears_spawnable_on_alternate, 
-	minecraft:portals, 
-	minecraft:pressure_plates, 
-	minecraft:prevent_mob_spawning_inside, 
-	minecraft:rabbits_spawnable_on, 
-	minecraft:rails, 
-	minecraft:redstone_ores, 
-	minecraft:replaceable_plants, 
-	minecraft:sand, 
-	minecraft:saplings, 
-	minecraft:sculk_replaceable, 
-	minecraft:sculk_replaceable_world_gen, 
-	minecraft:shulker_boxes, 
-	minecraft:signs, 
-	minecraft:slabs, 
-	minecraft:small_dripleaf_placeable, 
-	minecraft:small_flowers, 
-	minecraft:snaps_goat_horn, 
-	minecraft:snow, 
-	minecraft:snow_layer_can_survive_on, 
-	minecraft:snow_layer_cannot_survive_on, 
-	minecraft:soul_fire_base_blocks, 
-	minecraft:soul_speed_blocks, 
-	minecraft:spruce_logs, 
-	minecraft:stairs, 
-	minecraft:standing_signs, 
-	minecraft:stone_bricks, 
-	minecraft:stone_ore_replaceables, 
-	minecraft:stone_pressure_plates, 
-	minecraft:strider_warm_blocks, 
-	minecraft:tall_flowers, 
-	minecraft:terracotta, 
-	minecraft:trapdoors, 
-	minecraft:underwater_bonemeals, 
-	minecraft:unstable_bottom_center, 
-	minecraft:valid_spawn, 
-	minecraft:wall_corals, 
-	minecraft:wall_post_override, 
-	minecraft:wall_signs, 
-	minecraft:walls, 
-	minecraft:warped_stems, 
-	minecraft:wart_blocks, 
-	minecraft:wither_immune, 
-	minecraft:wither_summon_base_blocks, 
-	minecraft:wolves_spawnable_on, 
-	minecraft:wooden_buttons, 
-	minecraft:wooden_doors, 
-	minecraft:wooden_fences, 
-	minecraft:wooden_pressure_plates, 
-	minecraft:wooden_slabs, 
-	minecraft:wooden_stairs, 
-	minecraft:wooden_trapdoors, 
-	minecraft:wool, 
-	minecraft:wool_carpets
-[26Nov2022 10:40:04.118] [Server thread/WARN] [net.minecraftforge.registries.NamespacedHolderHelper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:arrows, 
-	minecraft:axolotl_always_hostiles, 
-	minecraft:axolotl_hunt_targets, 
-	minecraft:beehive_inhabitors, 
-	minecraft:freeze_hurts_extra_types, 
-	minecraft:freeze_immune_entity_types, 
-	minecraft:frog_food, 
-	minecraft:impact_projectiles, 
-	minecraft:powder_snow_walkable_mobs, 
-	minecraft:raiders, 
-	minecraft:skeletons
-[26Nov2022 10:40:04.120] [Server thread/WARN] [net.minecraftforge.registries.NamespacedHolderHelper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: forge:fences, 
-	forge:fences/wooden, 
-	forge:ores, 
-	forge:ores/coal, 
-	forge:ores/copper, 
-	forge:ores/diamond, 
-	forge:ores/emerald, 
-	forge:ores/gold, 
-	forge:ores/iron, 
-	forge:ores/lapis, 
-	forge:ores/redstone, 
-	minecraft:acacia_logs, 
-	minecraft:anvil, 
-	minecraft:arrows, 
-	minecraft:axolotl_tempt_items, 
-	minecraft:banners, 
-	minecraft:beacon_payment_items, 
-	minecraft:beds, 
-	minecraft:birch_logs, 
-	minecraft:boats, 
-	minecraft:buttons, 
-	minecraft:candles, 
-	minecraft:chest_boats, 
-	minecraft:cluster_max_harvestables, 
-	minecraft:coal_ores, 
-	minecraft:coals, 
-	minecraft:compasses, 
-	minecraft:completes_find_tree_tutorial, 
-	minecraft:copper_ores, 
-	minecraft:creeper_drop_music_discs, 
-	minecraft:crimson_stems, 
-	minecraft:dampens_vibrations, 
-	minecraft:dark_oak_logs, 
-	minecraft:diamond_ores, 
-	minecraft:dirt, 
-	minecraft:doors, 
-	minecraft:emerald_ores, 
-	minecraft:fences, 
-	minecraft:fishes, 
-	minecraft:flowers, 
-	minecraft:fox_food, 
-	minecraft:gold_ores, 
-	minecraft:ignored_by_piglin_babies, 
-	minecraft:iron_ores, 
-	minecraft:jungle_logs, 
-	minecraft:lapis_ores, 
-	minecraft:leaves, 
-	minecraft:lectern_books, 
-	minecraft:logs, 
-	minecraft:logs_that_burn, 
-	minecraft:mangrove_logs, 
-	minecraft:music_discs, 
-	minecraft:non_flammable_wood, 
-	minecraft:oak_logs, 
-	minecraft:overworld_natural_logs, 
-	minecraft:piglin_food, 
-	minecraft:piglin_loved, 
-	minecraft:piglin_repellents, 
-	minecraft:planks, 
-	minecraft:rails, 
-	minecraft:redstone_ores, 
-	minecraft:sand, 
-	minecraft:saplings, 
-	minecraft:signs, 
-	minecraft:slabs, 
-	minecraft:small_flowers, 
-	minecraft:soul_fire_base_blocks, 
-	minecraft:spruce_logs, 
-	minecraft:stairs, 
-	minecraft:stone_bricks, 
-	minecraft:stone_crafting_materials, 
-	minecraft:stone_tool_materials, 
-	minecraft:tall_flowers, 
-	minecraft:terracotta, 
-	minecraft:trapdoors, 
-	minecraft:walls, 
-	minecraft:warped_stems, 
-	minecraft:wart_blocks, 
-	minecraft:wooden_buttons, 
-	minecraft:wooden_doors, 
-	minecraft:wooden_fences, 
-	minecraft:wooden_pressure_plates, 
-	minecraft:wooden_slabs, 
-	minecraft:wooden_stairs, 
-	minecraft:wooden_trapdoors, 
-	minecraft:wool, 
-	minecraft:wool_carpets
-[26Nov2022 10:40:04.122] [Server thread/WARN] [net.minecraftforge.registries.NamespacedHolderHelper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:painting_variant] are present in data pack: minecraft:placeable
-[26Nov2022 10:40:04.123] [Server thread/WARN] [net.minecraftforge.registries.NamespacedHolderHelper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:point_of_interest_type] are present in data pack: minecraft:acquirable_job_site, 
-	minecraft:bee_home, 
-	minecraft:village
-[26Nov2022 10:40:04.125] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:cat_variant] are present in data pack: minecraft:default_spawns, minecraft:full_moon_spawns
-[26Nov2022 10:40:04.125] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:banner_pattern] are present in data pack: minecraft:no_item_required, minecraft:pattern_item/creeper, minecraft:pattern_item/flower, minecraft:pattern_item/globe, minecraft:pattern_item/mojang, minecraft:pattern_item/piglin, minecraft:pattern_item/skull
-[26Nov2022 10:40:04.125] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:instrument] are present in data pack: minecraft:goat_horns, minecraft:regular_goat_horns, minecraft:screaming_goat_horns
-[26Nov2022 10:40:05.594] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:adventure/adventuring_time' in progress file .\saves\New World\advancements\380df991-f603-344c-a090-369bad2a924a.json - it doesn't exist anymore?
-[26Nov2022 10:40:05.594] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'bat_elytra:root_end' in progress file .\saves\New World\advancements\380df991-f603-344c-a090-369bad2a924a.json - it doesn't exist anymore?
-[26Nov2022 10:40:05.595] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@25c90549
-[26Nov2022 10:40:06.014] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
-[26Nov2022 10:40:14.123] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Nov2022 10:40:14.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Nov2022 10:40:14.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Nov2022 10:40:14.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Nov2022 10:40:14.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[26Nov2022 10:40:14.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[26Nov2022 10:40:14.992] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[26Nov2022 10:40:15.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26Nov2022 10:40:15.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26Nov2022 10:40:15.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26Nov2022 10:40:20.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Nov2022 10:40:21.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Nov2022 10:40:21.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Nov2022 10:40:21.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[26Nov2022 10:40:21.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26Nov2022 10:40:21.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26Nov2022 10:40:21.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[26Nov2022 10:40:25.789] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.3-44.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.IllegalStateException: Missing element ResourceKey[minecraft:worldgen/biome / minecraft:mushroom_fields]
+	at net.minecraft.core.HolderGetter.lambda$getOrThrow$0(HolderGetter.java:12) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.core.HolderGetter.getOrThrow(HolderGetter.java:11) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at com.mojang.datafixers.util.Pair.mapSecond(Pair.java:68) ~[datafixerupper-5.0.28.jar:?]
+	at net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset.lambda$static$1(MultiNoiseBiomeSource.java:101) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.biome.OverworldBiomeBuilder.addSurfaceBiome(OverworldBiomeBuilder.java:375) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.biome.OverworldBiomeBuilder.addOffCoastBiomes(OverworldBiomeBuilder.java:99) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.biome.OverworldBiomeBuilder.addBiomes(OverworldBiomeBuilder.java:66) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset.lambda$static$2(MultiNoiseBiomeSource.java:100) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset.biomeSource(MultiNoiseBiomeSource.java:122) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance.biomeSource(MultiNoiseBiomeSource.java:153) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at net.minecraft.world.level.biome.MultiNoiseBiomeSource.lambda$static$3(MultiNoiseBiomeSource.java:38) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at com.mojang.datafixers.util.Either$Left.mapBoth(Either.java:33) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.map(DataResult.java:110) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$1(KeyDispatchCodec.java:67) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$2(KeyDispatchCodec.java:58) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:248) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$1(KeyDispatchCodec.java:67) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$2(KeyDispatchCodec.java:58) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:249) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-5.0.28.jar:?]
+	at net.minecraftforge.common.LenientUnboundedMapCodec.lambda$decode$3(LenientUnboundedMapCodec.java:52) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at java.util.stream.ReduceOps$1ReducingSink.accept(ReduceOps.java:80) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1707) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:667) ~[?:?]
+	at net.minecraftforge.common.LenientUnboundedMapCodec.decode(LenientUnboundedMapCodec.java:48) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraftforge.common.LenientUnboundedMapCodec.lambda$decode$8(LenientUnboundedMapCodec.java:70) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at net.minecraftforge.common.LenientUnboundedMapCodec.decode(LenientUnboundedMapCodec.java:70) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.decode(RecordCodecBuilder.java:183) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:249) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Decoder.decode(Decoder.java:22) ~[datafixerupper-5.0.28.jar:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:26) ~[datafixerupper-5.0.28.jar:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.readWorldGenSettings(LevelStorageSource.java:107) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.lambda$getLevelData$4(LevelStorageSource.java:222) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.readLevelData(LevelStorageSource.java:180) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:389) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$loadWorldStem$1(WorldOpenFlows.java:109) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:35) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:155) ~[forge-1.19.3-44.0.6_mapped_official_1.19.3-recomp.jar:?]
+	... 37 more
+[24Dec2022 22:46:02.244] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Dec2022 22:46:03.225] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1183 advancements
+[24Dec2022 22:46:05.251] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Dec2022 22:46:05.826] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1183 advancements
+[24Dec2022 22:46:16.511] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.3
+[24Dec2022 22:46:16.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Dec2022 22:46:16.647] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World2\serverconfig\forge-server.toml is not correct. Correcting
+[24Dec2022 22:46:16.649] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Dec2022 22:46:16.649] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[24Dec2022 22:46:16.649] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[24Dec2022 22:46:16.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[24Dec2022 22:46:16.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[24Dec2022 22:46:16.650] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[24Dec2022 22:46:16.651] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[24Dec2022 22:46:16.651] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[24Dec2022 22:46:24.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Dec2022 22:46:25.730] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:25.730] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:25.730] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:25.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:26.331] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:26.846] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:27.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:27.847] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:28.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:28.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24Dec2022 22:46:29.348] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[24Dec2022 22:46:29.911] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[24Dec2022 22:46:30.385] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[24Dec2022 22:46:30.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[24Dec2022 22:46:31.347] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[24Dec2022 22:46:31.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[24Dec2022 22:46:32.349] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[24Dec2022 22:46:32.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[24Dec2022 22:46:33.331] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[24Dec2022 22:46:33.906] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[24Dec2022 22:46:34.411] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[24Dec2022 22:46:34.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[24Dec2022 22:46:35.380] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[24Dec2022 22:46:35.847] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[24Dec2022 22:46:36.394] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[24Dec2022 22:46:36.883] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[24Dec2022 22:46:37.389] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[24Dec2022 22:46:37.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[24Dec2022 22:46:38.366] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[24Dec2022 22:46:38.880] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[24Dec2022 22:46:39.364] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[24Dec2022 22:46:39.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[24Dec2022 22:46:40.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[24Dec2022 22:46:40.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[24Dec2022 22:46:41.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[24Dec2022 22:46:41.881] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[24Dec2022 22:46:44.812] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[24Dec2022 22:46:44.812] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[24Dec2022 22:46:44.812] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[24Dec2022 22:46:44.812] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[24Dec2022 22:46:44.812] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[24Dec2022 22:46:44.869] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[24Dec2022 22:46:45.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[24Dec2022 22:46:45.831] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[24Dec2022 22:46:46.347] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[24Dec2022 22:46:46.847] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[24Dec2022 22:46:47.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[24Dec2022 22:46:47.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[24Dec2022 22:46:48.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[24Dec2022 22:46:48.880] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[24Dec2022 22:46:50.561] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[24Dec2022 22:46:50.561] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[24Dec2022 22:46:50.561] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[24Dec2022 22:46:50.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[24Dec2022 22:46:51.344] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[24Dec2022 22:46:51.847] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[24Dec2022 22:46:52.380] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[24Dec2022 22:46:52.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[24Dec2022 22:46:53.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[24Dec2022 22:46:53.880] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[24Dec2022 22:46:54.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[24Dec2022 22:46:54.835] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[24Dec2022 22:46:55.362] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[24Dec2022 22:46:55.875] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[24Dec2022 22:46:56.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[24Dec2022 22:46:56.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[24Dec2022 22:46:57.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[24Dec2022 22:46:57.914] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[24Dec2022 22:46:58.395] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[24Dec2022 22:46:58.929] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[24Dec2022 22:46:59.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[24Dec2022 22:46:59.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[24Dec2022 22:47:00.397] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[24Dec2022 22:47:00.882] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[24Dec2022 22:47:01.331] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[24Dec2022 22:47:01.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[24Dec2022 22:47:02.348] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[24Dec2022 22:47:02.861] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[24Dec2022 22:47:03.346] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[24Dec2022 22:47:03.833] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[24Dec2022 22:47:04.415] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[24Dec2022 22:47:04.832] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[24Dec2022 22:47:05.410] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[24Dec2022 22:47:05.846] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[24Dec2022 22:47:06.348] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[24Dec2022 22:47:06.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[24Dec2022 22:47:07.363] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[24Dec2022 22:47:07.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[24Dec2022 22:47:08.335] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[24Dec2022 22:47:08.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[24Dec2022 22:47:09.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[24Dec2022 22:47:09.885] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[24Dec2022 22:47:10.380] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[24Dec2022 22:47:10.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[24Dec2022 22:47:11.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[24Dec2022 22:47:11.843] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[24Dec2022 22:47:12.395] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[24Dec2022 22:47:12.833] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[24Dec2022 22:47:12.939] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[24Dec2022 22:47:12.940] [Server thread/INFO] [net.darkexplosiveqwx.bat_elytra.BatElytra/]: HELLO from server starting
+[24Dec2022 22:47:12.961] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 48630 ms
+[24Dec2022 22:47:13.095] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[24Dec2022 22:47:13.100] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[24Dec2022 22:47:13.309] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[24Dec2022 22:47:14.085] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[24Dec2022 22:47:14.143] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1cda1452
+[24Dec2022 22:47:14.172] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:58ebc6af] logged in with entity id 254 at (8.5, 114.0, 5.5)
+[24Dec2022 22:47:14.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[24Dec2022 22:47:15.220] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[24Dec2022 22:47:20.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[24Dec2022 22:48:14.950] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Unable to open game mode switcher; no permission
+[24Dec2022 22:48:17.190] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[24Dec2022 22:48:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[24Dec2022 22:48:17.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[24Dec2022 22:48:17.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[24Dec2022 22:48:22.353] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[24Dec2022 22:48:22.372] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 57865
+[24Dec2022 22:48:22.399] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Local game hosted on port [57865]
+[24Dec2022 22:48:33.355] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[24Dec2022 22:48:36.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[24Dec2022 22:48:36.169] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[24Dec2022 22:49:48.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Created new objective [hardbattoggle]]
+[24Dec2022 22:49:48.797] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Created new objective [hardbattoggle]
+[24Dec2022 22:51:56.344] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: scoreboard objectives add hardbattoggle air
+[24Dec2022 22:52:16.283] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gamerule commandBlockOutput is currently set to: true
+[24Dec2022 22:53:09.019] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: scoreboard objectives add hardbattoggle air
+[24Dec2022 22:53:24.763] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: scoreboard objectives add hardbattoggle minecraft.mined:minecraft.void_air
+[24Dec2022 22:54:00.348] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[24Dec2022 22:54:00.349] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...dbattoggle<--[HERE]
+[24Dec2022 22:54:11.083] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] There are 1 objectives: [hardbattoggle]
+[24Dec2022 22:54:23.396] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[24Dec2022 22:54:23.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...dbattoggle<--[HERE]
+[24Dec2022 22:54:45.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set display slot list to show objective hardbattoggle]
+[24Dec2022 22:54:45.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set display slot list to show objective hardbattoggle
+[24Dec2022 22:54:58.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set display slot sidebar to show objective hardbattoggle]
+[24Dec2022 22:54:58.261] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set display slot sidebar to show objective hardbattoggle
+[24Dec2022 22:55:11.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set display slot belowName to show objective hardbattoggle]
+[24Dec2022 22:55:11.965] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set display slot belowName to show objective hardbattoggle
+[24Dec2022 22:57:01.979] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: execute if predicate hardbattoggle as @a at @s if 
+[24Dec2022 22:57:49.731] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: execute if predicate hardbattoggle if
+[24Dec2022 22:58:35.683] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: execute if predicate hardbattoggle run effect give @e[type=minecraft:bat] minecraft:regeneration 121212 20 true
+[24Dec2022 22:58:55.616] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: execute if predicate hardbattoggle run effect give @e[type=minecraft:bat] minecraft:regeneration 121212 20 true
+[24Dec2022 22:59:21.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied effect Night Vision to Dev]
+[24Dec2022 22:59:21.948] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Applied effect Night Vision to Dev
+[24Dec2022 22:59:31.894] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 25 advancements
+[24Dec2022 22:59:32.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Bat Elytra]
+[24Dec2022 22:59:32.317] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Bat Elytra]
+[24Dec2022 22:59:32.364] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 28 advancements
+[24Dec2022 22:59:55.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Changed the display name of hardbattoggle to [1]]
+[24Dec2022 22:59:55.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Changed the display name of hardbattoggle to [1]
+[24Dec2022 23:00:00.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied effect Night Vision to Dev]
+[24Dec2022 23:00:00.595] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Applied effect Night Vision to Dev
+[24Dec2022 23:00:30.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Command set: execute if predicate hardbattoggle run effect give @e[type=minecraft:bat] minecraft:regeneration 121212 100 true
+[24Dec2022 23:00:48.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied effect Night Vision to Dev]
+[24Dec2022 23:00:48.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Applied effect Night Vision to Dev
+[24Dec2022 23:02:36.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Monster Hunter]
+[24Dec2022 23:02:36.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Monster Hunter]
+[24Dec2022 23:02:36.968] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 31 advancements
+[24Dec2022 23:02:40.410] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[24Dec2022 23:02:40.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[24Dec2022 23:02:40.439] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[24Dec2022 23:02:40.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Dec2022 23:02:40.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Dec2022 23:02:40.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Dec2022 23:02:45.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World2]'/minecraft:overworld
+[24Dec2022 23:02:45.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_end
+[24Dec2022 23:02:45.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World2]'/minecraft:the_nether
+[24Dec2022 23:02:45.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World2): All chunks are saved
+[24Dec2022 23:02:45.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Dec2022 23:02:45.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Dec2022 23:02:45.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24Dec2022 23:02:47.128] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
