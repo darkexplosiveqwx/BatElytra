@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: bat_elytra
+Specification-Vendor: darkexplosiveqwx
+Specification-Version: 1
+Implementation-Title: Bat
+Implementation-Version: 1.2.0
+Implementation-Vendor: darkexplosiveqwx
+Implementation-Timestamp: 2023-06-11T12:03:40+0200
+

@@ -1,0 +1,24 @@
+{
+  "item.bat_elytra.bat_elytra": "Fledermaus Elytra",
+  "item.bat_elytra.bat_wing": "Fledermausflügel",
+  "item.bat_elytra.armored_bat_elytra": "Gepanzerte Fledermaus Elytra",
+  "itemGroup.bat_elytra": "Fledermaus Elytra Tab",
+
+  "key.category.bat_elytra.main": "Fledermaus Elytra",
+  "key.bat_elytra.elytra_jump": "Elytra Sprung",
+
+  "advancements.bat_elytra.hard.title": "Schwerer Modus",
+  "advancements.bat_elytra.hard.description": "Gibt Fledermäusen Effekte",
+
+
+
+  "advancements.bat_elytra.root.title": "Fledermaus Elytra",
+  "advancements.bat_elytra.root.description": "Töte eine Fledermaus für ihren Flügel",
+
+  "advancements.bat_elytra.elytra.title": "Fledermaus Elytra",
+  "advancements.bat_elytra.elytra.description": "Umrunde eine Elytra mit Flügeln",
+
+
+  "advancements.bat_elytra.armored_elytra.title": "Geschützt von einer Elytra",
+  "advancements.bat_elytra.armored_elytra.description": "Kombiniere eine Fledermaus Elytra mit einem Netherite Brustpanzer"
+}

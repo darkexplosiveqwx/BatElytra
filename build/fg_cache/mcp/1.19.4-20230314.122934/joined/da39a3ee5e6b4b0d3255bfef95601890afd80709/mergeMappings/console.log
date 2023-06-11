@@ -1,0 +1,16 @@
+JVM:         /snap/intellij-idea-community/422/jbr/bin/java
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "/Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/downloadClientMappings/client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "/Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/mergeMappings/output.jar"
+Classpath:   /home/johannes/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.2.0/installertools-1.2.0-fatjar.jar
+Working Dir: /Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config/joined.tsrg
+         null
+Right:   /Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/downloadClientMappings/client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  /Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/mergeMappings/output.jar

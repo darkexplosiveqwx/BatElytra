@@ -1,0 +1,6 @@
+JVM:         /snap/intellij-idea-community/422/jbr/bin/java
+JVM Args:    
+Run Args:    "--client", "/Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/stripClient/output.jar", "--server", "/Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/stripServer/output.jar", "--ann", "1.19.4", "--output", "/Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/merge/output.jar", "--inject", "false"
+Classpath:   /home/johannes/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-fatjar.jar
+Working Dir: /Data/Users/johan/Desktop/Bat/build/fg_cache/mcp/1.19.4-20230314.122934/joined/da39a3ee5e6b4b0d3255bfef95601890afd80709/merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

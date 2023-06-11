@@ -1,0 +1,26 @@
+{
+  "item.bat_elytra.bat_elytra": "蝙蝠翼鞘翅",
+  "item.bat_elytra.bat_wing": "蝙蝠翼",
+  "item.bat_elytra.armored_bat_elytra": "蝙蝠翼鞘翅盔甲",
+  "itemGroup.bat_elytra": "蝙蝠翼鞘翅",
+
+  "key.category.bat_elytra.main": "蝙蝠翼鞘翅",
+  "key.bat_elytra.elytra_jump": "鞘翅跳跃",
+
+  "": "advacements" ,
+
+  "": "hard mode" ,
+  "advancements.bat_elytra.hard.title" : "困难模式",
+  "advancements.bat_elytra.hard.description" : "给予蝙蝠效果",
+
+  "": "normal",
+
+  "advancements.bat_elytra.root.title": "蝙蝠翼",
+  "advancements.bat_elytra.root.description": "杀死一只蝙蝠并得到它的翅膀",
+
+  "advancements.bat_elytra.elytra.title": "蝙蝠翼鞘翅",
+  "advancements.bat_elytra.elytra.description": "用蝙蝠翼环绕鞘翅",
+
+  "advancements.bat_elytra.armored_elytra.title": "被鞘翅保护",
+  "advancements.bat_elytra.armored_elytra.description": "将蝙蝠翼鞘翅与下界合金胸甲组合"
+}

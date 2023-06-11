@@ -1,0 +1,16 @@
+JVM:         C:\Users\johan\scoop\apps\corretto17-jdk\current\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.3-20221207.122022\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.3-20221207.122022\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\mergeMappings\output.jar"
+Classpath:   C:\Users\johan\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.3-20221207.122022\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.3-20221207.122022\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.3-20221207.122022\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\mergeMappings\output.jar

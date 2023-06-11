@@ -1,0 +1,9 @@
+JVM:         C:\Users\johan\scoop\apps\corretto17-jdk\current\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\AccessTransformer\output.jar", "--output", "V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\SideStripper\output.jar", "--data", "V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\SideStripper\string_data.sas"
+Classpath:   C:\Users\johan\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\AccessTransformer\output.jar
+Output: V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\SideStripper\output.jar
+Data:   V:\Users\johan\Desktop\Bat\build\fg_cache\mcp\1.19.2-20220805.130853\joined\da39a3ee5e6b4b0d3255bfef95601890afd80709\SideStripper\string_data.sas

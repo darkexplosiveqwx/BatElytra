@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XVX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "bat_elytra:bat_wing"
+    },
+    "V": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "item": "bat_elytra:bat_elytra",
+    "count": 1
+  }
+}
