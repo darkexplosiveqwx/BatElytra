@@ -14,7 +14,7 @@ import net.minecraft.world.level.block.DispenserBlock;
 import org.jetbrains.annotations.NotNull;
 
 public class ArmoredBatElytra extends ArmorItem {
-    public ArmoredBatElytra(ArmorMaterial materialIn, EquipmentSlot slot, Properties properties) {
+    public ArmoredBatElytra(ArmorMaterial materialIn, ArmorItem.Type slot, Properties properties) {
         super(materialIn, slot, properties);
         DispenserBlock.registerBehavior(this, ArmorItem.DISPENSE_ITEM_BEHAVIOR);
     }
