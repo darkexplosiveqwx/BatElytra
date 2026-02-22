@@ -1,0 +1,2 @@
+ElytraRenderer.java is from https://github.com/Nic4Las/Minecraft-Enderite-Mod/tree/Forge-1.18.1 taken under MIT
+BatElytraLayer and BatElytraArmorStandLayer is from https://github.com/DrunkBlood/Netherite-Elytra/blob/curios-1.19/src/main/java/drunkblood/netheriteelytra/NetheriteElytra.java
