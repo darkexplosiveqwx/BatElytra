@@ -1,12 +1,15 @@
 {
-  "type": "minecraft:smithing",
-  "addition": {
-    "item": "bat_elytra:bat_elytra"
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   },
   "base": {
     "item": "minecraft:netherite_chestplate"
   },
+  "addition": {
+    "item": "bat_elytra:bat_elytra"
+  },
   "result": {
-    "item": "bat_elytra:armored_bat_elytra"
+    "id": "bat_elytra:armored_bat_elytra"
   }
 }

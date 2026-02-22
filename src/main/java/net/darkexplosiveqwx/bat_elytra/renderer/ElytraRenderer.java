@@ -1,55 +1,63 @@
 package net.darkexplosiveqwx.bat_elytra.renderer;
 
-import com.mojang.blaze3d.vertex.*;
-
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.darkexplosiveqwx.bat_elytra.BatElytra;
-import net.minecraft.client.model.*;
-import net.minecraft.client.model.geom.*;
+import net.minecraft.client.model.ElytraModel;
+import net.minecraft.client.model.EntityModel;
+import net.minecraft.client.model.geom.EntityModelSet;
+import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.player.AbstractClientPlayer;
-import net.minecraft.client.renderer.*;
-import net.minecraft.client.renderer.entity.*;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.entity.ItemRenderer;
+import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.texture.*;
+import net.minecraft.client.renderer.texture.OverlayTexture;
+import net.minecraft.client.resources.PlayerSkin;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.PlayerModelPart;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.api.distmarker.*;
-import org.jetbrains.annotations.NotNull;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
 public class ElytraRenderer<T extends LivingEntity, M extends EntityModel<T>> extends RenderLayer<T, M> {
-    private static final ResourceLocation WINGS_LOCATION = new ResourceLocation("textures/entity/bat_elytra.png");
+    private static final ResourceLocation WINGS_LOCATION = ResourceLocation.fromNamespaceAndPath(BatElytra.MODID, "textures/entity/bat_elytra.png");
     private final ElytraModel<T> elytraModel;
 
-    public ElytraRenderer(RenderLayerParent<T, M> p_174493_, EntityModelSet p_174494_) {
-        super(p_174493_);
-        this.elytraModel = new ElytraModel<>(p_174494_.bakeLayer(ModelLayers.ELYTRA));
+    public ElytraRenderer(RenderLayerParent<T, M> parent, EntityModelSet modelSet) {
+        super(parent);
+        this.elytraModel = new ElytraModel<>(modelSet.bakeLayer(ModelLayers.ELYTRA));
     }
 
-    public void render(@NotNull PoseStack p_116951_, @NotNull MultiBufferSource p_116952_, int p_116953_, T p_116954_, float p_116955_, float p_116956_, float p_116957_, float p_116958_, float p_116959_, float p_116960_) {
-        ItemStack itemstack = p_116954_.getItemBySlot(EquipmentSlot.CHEST);
-        if (shouldRender(itemstack, p_116954_)) {
-            ResourceLocation resourcelocation;
-            if (p_116954_ instanceof AbstractClientPlayer abstractclientplayer) {
-                if (abstractclientplayer.isElytraLoaded() && abstractclientplayer.getElytraTextureLocation() != null) {
-                    resourcelocation = abstractclientplayer.getElytraTextureLocation();
-                } else if (abstractclientplayer.isCapeLoaded() && abstractclientplayer.getCloakTextureLocation() != null && abstractclientplayer.isModelPartShown(PlayerModelPart.CAPE)) {
-                    resourcelocation = abstractclientplayer.getCloakTextureLocation();
+    @Override
+    public void render(PoseStack poseStack, MultiBufferSource buffer, int packedLight, T entity, float limbSwing, float limbSwingAmount, float partialTick, float ageInTicks, float netHeadYaw, float headPitch) {
+        ItemStack itemStack = entity.getItemBySlot(EquipmentSlot.CHEST);
+        if (shouldRender(itemStack, entity)) {
+            ResourceLocation texture;
+            if (entity instanceof AbstractClientPlayer player) {
+                PlayerSkin playerSkin = player.getSkin();
+                if (playerSkin.elytraTexture() != null) {
+                    texture = playerSkin.elytraTexture();
+                } else if (playerSkin.capeTexture() != null && player.isModelPartShown(PlayerModelPart.CAPE)) {
+                    texture = playerSkin.capeTexture();
                 } else {
-                    resourcelocation = getElytraTexture(itemstack, p_116954_);
+                    texture = getElytraTexture(itemStack, entity);
                 }
             } else {
-                resourcelocation = getElytraTexture(itemstack, p_116954_);
+                texture = getElytraTexture(itemStack, entity);
             }
 
-            p_116951_.pushPose();
-            p_116951_.translate(0.0D, 0.0D, 0.125D);
+            poseStack.pushPose();
+            poseStack.translate(0.0F, 0.0F, 0.125F);
             this.getParentModel().copyPropertiesTo(this.elytraModel);
-            this.elytraModel.setupAnim(p_116954_, p_116955_, p_116956_, p_116958_, p_116959_, p_116960_);
-            VertexConsumer vertexconsumer = ItemRenderer.getArmorFoilBuffer(p_116952_, RenderType.armorCutoutNoCull(resourcelocation), false, itemstack.hasFoil());
-            this.elytraModel.renderToBuffer(p_116951_, vertexconsumer, p_116953_, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 1.0F);
-            p_116951_.popPose();
+            this.elytraModel.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
+            VertexConsumer vertexConsumer = ItemRenderer.getArmorFoilBuffer(buffer, RenderType.armorCutoutNoCull(texture), itemStack.hasFoil());
+            this.elytraModel.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY);
+            poseStack.popPose();
         }
     }
 
