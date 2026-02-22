@@ -1,5 +1,6 @@
 package net.darkexplosiveqwx.bat_elytra.item;
 
+import net.darkexplosiveqwx.bat_elytra.BatElytra;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -29,7 +30,7 @@ public class BatElytraItem extends ElytraItem {
      */
     @Override
     public boolean isValidRepairItem(@NotNull ItemStack toRepair, ItemStack repair) {
-        return repair.getItem() == ModItems.BAT_WING.get();
+        return repair.getItem() == BatElytra.BAT_WING.get();
     }
 
     @Override
