@@ -29,17 +29,10 @@ public class ElytraJumpC2SPacket {
             //SERVER SIDE NOW
             ServerPlayer player = context.getSender();
             assert player != null;
-            ServerLevel level = player.getLevel();
-
-             //if(player.getInventory().armor.get(2) != BatElytra.BAT_ELYTRA.get().getDefaultInstance() || player.getInventory().armor.get(2) != BatElytra.ARMORED_BAT_ELYTRA.get().getDefaultInstance()) return;
             if(player.getItemBySlot(EquipmentSlot.CHEST).is(BatElytra.ARMORED_BAT_ELYTRA.get().asItem()) || player.getItemBySlot(EquipmentSlot.CHEST).is(BatElytra.BAT_ELYTRA.get().asItem())) {
                 player.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 75, false, false, false));
 
             }
-
-
-            //player.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 75, false, false, false));
-
 
         });
     }
