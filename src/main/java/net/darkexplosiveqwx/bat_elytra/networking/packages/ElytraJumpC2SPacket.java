@@ -1,6 +1,6 @@
 package net.darkexplosiveqwx.bat_elytra.networking.packages;
 
-import net.darkexplosiveqwx.bat_elytra.item.ModItems;
+import net.darkexplosiveqwx.bat_elytra.BatElytra;
 import net.minecraft.network.*;
 import net.minecraft.server.level.*;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -31,8 +31,8 @@ public class ElytraJumpC2SPacket {
             assert player != null;
             ServerLevel level = player.getLevel();
 
-             //if(player.getInventory().armor.get(2) != ModItems.BAT_ELYTRA.get().getDefaultInstance() || player.getInventory().armor.get(2) != ModItems.ARMORED_BAT_ELYTRA.get().getDefaultInstance()) return;
-            if(player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.ARMORED_BAT_ELYTRA.get().asItem()) || player.getItemBySlot(EquipmentSlot.CHEST).is(ModItems.BAT_ELYTRA.get().asItem())) {
+             //if(player.getInventory().armor.get(2) != BatElytra.BAT_ELYTRA.get().getDefaultInstance() || player.getInventory().armor.get(2) != BatElytra.ARMORED_BAT_ELYTRA.get().getDefaultInstance()) return;
+            if(player.getItemBySlot(EquipmentSlot.CHEST).is(BatElytra.ARMORED_BAT_ELYTRA.get().asItem()) || player.getItemBySlot(EquipmentSlot.CHEST).is(BatElytra.BAT_ELYTRA.get().asItem())) {
                 player.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 20, 75, false, false, false));
 
             }

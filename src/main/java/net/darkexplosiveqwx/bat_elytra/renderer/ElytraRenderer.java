@@ -2,7 +2,7 @@ package net.darkexplosiveqwx.bat_elytra.renderer;
 
 import com.mojang.blaze3d.vertex.*;
 
-import net.darkexplosiveqwx.bat_elytra.BatTag;
+import net.darkexplosiveqwx.bat_elytra.BatElytra;
 import net.minecraft.client.model.*;
 import net.minecraft.client.model.geom.*;
 import net.minecraft.client.player.AbstractClientPlayer;
@@ -63,7 +63,7 @@ public class ElytraRenderer<T extends LivingEntity, M extends EntityModel<T>> ex
      * @return If the ElytraLayer should render.
      */
     public boolean shouldRender(ItemStack stack, T entity) {
-        return stack.is(BatTag.BAT_ELYTRAS);
+        return stack.is(BatElytra.BAT_ELYTRAS_TAG);
     }
 
     /**

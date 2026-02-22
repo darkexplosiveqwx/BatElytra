@@ -1,7 +1,6 @@
 package net.darkexplosiveqwx.bat_elytra.renderer;
 
 import net.darkexplosiveqwx.bat_elytra.BatElytra;
-import net.darkexplosiveqwx.bat_elytra.item.ModItems;
 import net.minecraft.client.model.*;
 import net.minecraft.client.model.geom.*;
 import net.minecraft.client.player.*;
@@ -27,7 +26,7 @@ public class BatElytraLayer
 
     @Override
     public boolean shouldRender(ItemStack stack, @NotNull AbstractClientPlayer entity) {
-        return stack.getItem() == ModItems.BAT_ELYTRA.get() || stack.getItem() == ModItems.ARMORED_BAT_ELYTRA.get();
+        return stack.getItem() == BatElytra.BAT_ELYTRA.get() || stack.getItem() == BatElytra.ARMORED_BAT_ELYTRA.get();
     }
 
     @Override

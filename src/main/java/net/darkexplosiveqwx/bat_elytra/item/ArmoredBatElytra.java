@@ -1,5 +1,6 @@
 package net.darkexplosiveqwx.bat_elytra.item;
 
+import net.darkexplosiveqwx.bat_elytra.BatElytra;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -27,7 +28,7 @@ public class ArmoredBatElytra extends ArmorItem {
      * Return whether this item is repairable in an anvil.
      */
     public boolean isValidRepairItem(@NotNull ItemStack toRepair, ItemStack repair) {
-        return repair.getItem() == ModItems.BAT_WING.get();
+        return repair.getItem() == BatElytra.BAT_WING.get();
     }
 
     /**
